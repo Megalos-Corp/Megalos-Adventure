@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " AAA ",
+    "ASCEG",
+    "ACMEG",
+    "ASCEG",
+    " PPP "
+  ],
+  "key": {
+    "A": {
+      "item": "create:brass_ingot"
+    },
+    "G": {
+      "tag": "forge:glass_panes"
+    },
+    "C": {
+      "item": "createaddition:capacitor"
+    },
+    "S": {
+      "item": "createaddition:gold_spool"
+    },
+    "M": {
+      "item": "create:precision_mechanism"
+    },
+    "P": {
+      "item": "create:brass_block"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    }
+  },
+  "result": {
+    "item": "computercraft:computer_advanced",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

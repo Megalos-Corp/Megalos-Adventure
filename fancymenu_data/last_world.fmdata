@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/Nesios/curseforge/minecraft/Instances/(stable)-Megalos Adventure 1.18.2/saves/New World
+}
+

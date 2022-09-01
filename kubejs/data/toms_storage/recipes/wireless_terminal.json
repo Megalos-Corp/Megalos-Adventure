@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "BEB",
+    "SPG",
+    "BCB"
+  ],
+  "key": {
+    "B": {
+      "item": "create:copper_sheet"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "C": {
+      "item": "createaddition:capacitor"
+    },
+    "S": {
+      "item": "toms_storage:ts.storage_terminal"
+    },
+    "G": {
+      "tag": "forge:glass_panes"
+    }
+  },
+  "result": {
+    "item": "toms_storage:ts.wireless_terminal"
+  },
+  "acceptMirrored": true
+}

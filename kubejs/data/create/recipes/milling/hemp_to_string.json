@@ -1,0 +1,23 @@
+{
+  "type": "create:milling",
+"ingredients": [
+  {
+    "item": "druidcraft:hemp"
+  }
+],
+"results": [
+  {
+    "item": "minecraft:string"
+  },
+  {
+    "item": "minecraft:string",
+    "count": 2,
+    "chance": 0.25
+  },
+  {
+    "item": "druidcraft:hemp_seeds",
+    "chance": 0.25
+  }
+],
+"processingTime": 150
+}

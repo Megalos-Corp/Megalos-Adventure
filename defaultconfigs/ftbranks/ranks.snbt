@@ -1,0 +1,24 @@
+{
+	member: {
+		name: "Member"
+		power: 1
+		condition: "always_active"
+		ftbranks.name_format: "<{name}>"
+	}
+	vip: {
+		name: "VIP"
+		power: 50
+		ftbranks.name_format: "<&6VIP {name}&r>"
+	}
+	moderator: {
+		name: "Moderator"
+		power: 900
+		ftbranks.name_format: "<&bMod {name}&r>"
+	}
+	admin: {
+		name: "Admin"
+		power: 1000
+		condition: "op"
+		ftbranks.name_format: "<&4{name}&r>"
+	}
+}

@@ -1,0 +1,322 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  minimummcversion = 1.18.2
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = fancymenu_textures/gui/background.png
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  orientation = bottom-centered
+  x = -98
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-left
+  x = 516
+  action = movebutton
+  y = -25
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 112
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_textures\gui\ui_player_hover.png
+  backgroundnormal = fancymenu_textures\gui\ui_player.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-left
+  x = 516
+  action = movebutton
+  y = 12
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 112
+  action = resizebutton
+  height = 22
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_textures\gui\ui_player_hover.png
+  backgroundnormal = fancymenu_textures\gui\ui_player.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = bottom-right
+  x = -34
+  action = movebutton
+  y = -70
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 22
+  action = resizebutton
+  height = 22
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_textures\gui\quit_hover.png
+  backgroundnormal = fancymenu_textures\gui\quit.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = 196
+  action = movebutton
+  y = -50
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 112
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = packmenu\resources\assets\packmenu\textures\gui\ui_player_hover.png
+  backgroundnormal = packmenu\resources\assets\packmenu\textures\gui\ui_player.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-centered
+  x = 196
+  action = movebutton
+  y = 39
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 112
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttonlabel
+  value = Mods Options
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_textures\gui\medium_ui_hover.png
+  backgroundnormal = fancymenu_textures\gui\medium_ui.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 186
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = ab2a3967-9c2b-433f-be3c-7ad67057abaa1660847891636
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 2862b8e5-7b10-43ba-83db-89cc5695426c1660847891643
+  y = 301
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 411
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 1fdecc65-c285-4431-b495-56b3490da83d1660847891644
+  y = 323
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = a50b8be7-44cc-40a1-a4e0-3bbc7af028811660847891644
+  y = 185
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = e45c3c19-b38e-45dd-884a-c25b04d574fc1660847891644
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = top-centered
+  splash_color = #ffff00
+  hidden = false
+  x = 135
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 2a647a5e-1bbd-49ae-bb3c-96372862a54e1660847891644
+  y = 96
+  height = 30
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = false
+  scale = 1.2
+  source = Version
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 516
+  width = 112
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = f01556f5-ccab-4a38-9d65-e10283ef62e31660857195703
+  y = 314
+  alignment = centered
+  height = 42
+}
+
+customization {
+  orientation = top-right
+  enable_scrolling = true
+  shadow = false
+  scale = 0.9
+  source = fancymenu_textures/gui/version.txt
+  text_border = 0
+  case_mode = normal
+  source_mode = local
+  line_spacing = 1
+  x = -124
+  width = 112
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = fb395b14-7333-4495-8764-80417807be7a1660857568151
+  y = 326
+  alignment = centered
+  base_color = eb4005
+  height = 39
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = fancymenu_textures\gui\pub_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 516
+  width = 112
+  actionid = b8d543e5-3f14-49ec-8206-47f07716f6e21661615803133
+  action = addbutton
+  y = 15
+  backgroundnormal = fancymenu_textures\gui\pub.png
+  value = https://guilded.gg/Megalos-Adventure
+  height = 99
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = fancymenu_textures\gui\medium_ui_hover.png
+  label = Changelog
+  loopbackgroundanimations = true
+  x = 516
+  width = 112
+  actionid = 33cb9b18-92c4-4da8-be10-ed6d4e5ea2e61660864315140
+  action = addbutton
+  y = 244
+  backgroundnormal = fancymenu_textures\gui\medium_ui.png
+  value = https://github.com/Megalos-Corp/Megalos-Adventure/releases
+  height = 20
+}
+
