@@ -4,4 +4,5 @@
 
 The Megalos adventure is a multi-player modpack focused on a medieval steampunk universe with Create as main mod. It allows an experience respecting the general idea of the game associated with the ideas of Nesios and the present mods.
 
+the modpack is designed to be played on a server, a solo version will come later.
 
