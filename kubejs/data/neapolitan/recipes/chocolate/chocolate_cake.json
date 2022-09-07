@@ -16,7 +16,7 @@
       "item": "create:wheat_flour"
     },
     "D": {
-      "item": "neapolitan:chocolate_bar"
+      "item": "create:bar_of_chocolate"
     },
     "E": {
       "tag": "forge:eggs"
