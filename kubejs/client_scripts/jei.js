@@ -87,4 +87,13 @@ onEvent('jei.hide.items', event => {
     event.hide([
         '#computercraft:turtle'
     ])
+    // Hide tough as nails armor for temperature
+    event.hide([
+        '#toughasnails:heating_armor',
+        '#toughasnails:cooling_armor'
+    ])
+    // hide neapolitan bar of chocolate
+    event.hide([
+        'neapolitan:chocolate_bar'
+    ])
 })
