@@ -60,4 +60,12 @@ onEvent('recipes', event => {
 	// Remove upgradable computer recipes
 	event.remove({id: "computercraft:computer_advanced_upgrade"})
 	event.remove({id: "computercraft:pocket_computer_advanced_upgrade"})
+	// Remove recipe for cake and add a recipe via createaddition base cake
+	event.remove({id: "farmersdelight:cake_from_milk_bottle"})
+	event.remove({id: "minecraft:cake"})
+	event.remove({id: "create:crafting/curiosities/cake"})
+	event.remove({id: "neapolitan:cake"})
+	// Unificate chocolate create/neapolitan
+	event.remove({id: "neapolitan:chocolate/chocolate_bar"})
 })
+

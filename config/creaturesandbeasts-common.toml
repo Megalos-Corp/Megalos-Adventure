@@ -28,14 +28,14 @@
 		spawnWeight = 1
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
-		minCount = 2
+		minCount = 1
 		#Determines the spawn cost for the entity.
 		mobCost = 0.0
 		#Determines what spawn category this entity should use.
 		spawnCategory = "creature"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
-		maxCount = 3
+		maxCount = 2
 
 	[[Spawns.spawns]]
 		#Determines the maximum cost for the entity in a given area.
@@ -154,14 +154,14 @@
 		spawnWeight = 3
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
-		minCount = 6
+		minCount = 3
 		#Determines the spawn cost for the entity.
 		mobCost = 0.0
 		#Determines what spawn category this entity should use.
 		spawnCategory = "creature"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
-		maxCount = 13
+		maxCount = 6
 
 	[[Spawns.spawns]]
 		#Determines the maximum cost for the entity in a given area.
@@ -175,14 +175,14 @@
 		spawnWeight = 3
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
-		minCount = 6
+		minCount = 3
 		#Determines the spawn cost for the entity.
 		mobCost = 0.0
 		#Determines what spawn category this entity should use.
 		spawnCategory = "creature"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
-		maxCount = 13
+		maxCount = 6
 
 	[[Spawns.spawns]]
 		#Determines the maximum cost for the entity in a given area.
@@ -196,14 +196,14 @@
 		spawnWeight = 3
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
-		minCount = 6
+		minCount = 3
 		#Determines the spawn cost for the entity.
 		mobCost = 0.0
 		#Determines what spawn category this entity should use.
 		spawnCategory = "creature"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
-		maxCount = 13
+		maxCount = 6
 
 	[[Spawns.spawns]]
 		#Determines the maximum cost for the entity in a given area.
@@ -217,14 +217,14 @@
 		spawnWeight = 3
 		#Determines the minimum number of entities to spawn.
 		# Range: [0, 1000000]
-		minCount = 6
+		minCount = 3
 		#Determines the spawn cost for the entity.
 		mobCost = 0.0
 		#Determines what spawn category this entity should use.
 		spawnCategory = "creature"
 		#Determines the maximum number of entities to spawn.
 		# Range: [0, 1000000]
-		maxCount = 13
+		maxCount = 6
 
 	[[Spawns.spawns]]
 		#Determines the maximum cost for the entity in a given area.

@@ -2,7 +2,7 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
     {
-      "tag": "mgls:apple_fruits"
+      "item": "cnb:apple_slice"
     },
     {
       "item": "minecraft:sugar"

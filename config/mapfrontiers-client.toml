@@ -1,11 +1,11 @@
 #Range: 0 ~ 11
-newFrontierShape = 6
+newFrontierShape = 9
 #Range: 0 ~ 999
 newFrontierShapeWidth = 10
 #Range: 0 ~ 999
 newFrontierShapeRadius = 20
 #Range: 0 ~ 7
-newFrontierChunkShape = 0
+newFrontierChunkShape = 1
 #Range: 0 ~ 32
 newFrontierChunkShapeWidth = 5
 #Range: 0 ~ 32
