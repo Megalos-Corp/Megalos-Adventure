@@ -1,0 +1,17 @@
+{
+  "type": "farmersrespite:brewing",
+  "ingredients": [
+    {
+      "item": "create:bar_of_chocolate"
+    }
+  ],
+  "result": {
+    "item": "farmersdelight:hot_cocoa"
+  },
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "experience": 0.35,
+  "brewingtime": 100,
+  "needwater": false
+}

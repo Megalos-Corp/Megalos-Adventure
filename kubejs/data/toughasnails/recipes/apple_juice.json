@@ -1,18 +1,20 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "farmersdelight:cooking",
   "group": "juice",
   "ingredients": [
     {
-      "item": "toughasnails:purified_water_bottle"
+      "item": "cnb:apple_slice"
     },
     {
       "item": "minecraft:sugar"
-    },
-    {
-      "item": "cnb:apple_slice"
     }
   ],
   "result": {
     "item": "toughasnails:apple_juice"
-  }
+  },
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
 }

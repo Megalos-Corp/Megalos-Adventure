@@ -10,18 +10,9 @@ onEvent('recipes', event => {
 	// Change recipes here
 	//suppression des recettes de la corde pour unifier les items. 
 	event.remove({id: 'supplementaries:rope'})
-	event.remove({id: 'farmersdelight:rope'})
 	event.remove({id: 'quark:building/crafting/rope'})
-	event.remove({id: 'druidcraft:rope'})
-	event.remove({id: 'druidcraft:lead'})
-	// Unification du craft des cordes
-	event.shaped('3x farmersdelight:rope', [
-		' S ',
-		' S ',
-		' S '
-	  ], {
-		S: '#mgls:rope'
-	  })
+	event.remove({id: 'druidcraftrg:lead'})
+	event.remove({id: 'druidcraftrg:rope'})
 	// Suppression des craft de base du pain vanilla
 	event.remove({id: 'quark:tweaks/crafting/utility/bent/bread'})
 	event.remove({id: 'minecraft:bread'})
@@ -55,17 +46,50 @@ onEvent('recipes', event => {
 	// Remove duplicate honey apple
 	event.remove({id: 'buzzier_bees:honey/honey_apple'})
 	// Remove turtles for Computer Craft
-	event.remove({id: "computercraft:turtle_normal"})
-	event.remove({id: "computercraft:impostor"})
+	event.remove({id: 'computercraft:turtle_normal'})
+	event.remove({id: 'computercraft:impostor'})
 	// Remove upgradable computer recipes
-	event.remove({id: "computercraft:computer_advanced_upgrade"})
-	event.remove({id: "computercraft:pocket_computer_advanced_upgrade"})
+	event.remove({id: 'computercraft:computer_advanced_upgrade'})
+	event.remove({id: 'computercraft:pocket_computer_advanced_upgrade'})
+	event.remove({id: 'computercraft:pocket_computer_normal'})
+	event.remove({id: 'computercraft:pocket_computer_normal_upgrade'})
+	event.remove({id: 'computercraft:pocket_computer_advanced'})
 	// Remove recipe for cake and add a recipe via createaddition base cake
-	event.remove({id: "farmersdelight:cake_from_milk_bottle"})
-	event.remove({id: "minecraft:cake"})
-	event.remove({id: "create:crafting/curiosities/cake"})
-	event.remove({id: "neapolitan:cake"})
+	event.remove({id: 'farmersdelight:cake_from_milk_bottle'})
+	event.remove({id: 'minecraft:cake'})
+	event.remove({id: 'create:crafting/curiosities/cake'})
+	event.remove({id: 'neapolitan:cake'})
 	// Unificate chocolate create/neapolitan
-	event.remove({id: "neapolitan:chocolate/chocolate_bar"})
+	event.remove({id: 'neapolitan:chocolate/chocolate_bar'})
+	// Unificate Melon Juice
+	event.remove({id: 'sliceanddice:cooking/farmersdelight/cooking/melon_juice'})
+	event.remove({id: 'toughasnails:melon_juice'})
+	// Remove Spout Gun 
+	event.remove({id: 'create_things_and_misc:spout_craft'})
+	event.remove({id: 'create_things_and_misc:water_gun_c_raft'})
+	event.remove({id: 'create_things_and_misc:spout_gun_lava'})
+	event.remove({id: 'create_things_and_misc:copper_scaffolding_craft'})
+	//Remove heated recipe for all juice
+	event.remove({id: 'sliceanddice:cooking/toughasnails/cactus_juice'})
+	event.remove({id: 'sliceanddice:cooking/toughasnails/sweet_berry_juice'})
+	event.remove({id: 'sliceanddice:cooking/toughasnails/glow_berry_juice'})
+	event.remove({id: 'sliceanddice:cooking/toughasnails/apple_juice'})
+	event.remove({id: 'sliceanddice:cooking/toughasnails/chorus_fruit_juice'})
+	event.remove({id: 'sliceanddice:cooking/toughasnails/pumpkin_juice'})
+	//Remove basic recipe of Hot Cocoa
+	event.remove({id: 'farmersdelight:cooking/hot_cocoa'})
+	//Remove Apple cider recipe
+	event.remove({id: 'farmersdelight:cooking/apple_cider'})
+	event.remove({id: 'farmersrespite:brewing/apple_cider'})
+	event.remove({id: 'farmersrespite:brewing/long_apple_cider'})
+	event.remove({id: 'farmersrespite:brewing/strong_apple_cider'})
+	//Remove thatch Mowzies Mobs
+	event.remove({id: 'mowziesmobs:thatch_block'})
+	//Remove block and chain of Twilight Forest
+	event.remove({id: 'twilightforest:equipment/block_and_chain'})
+	//Remove giant sword and pickaxe of Twilight Forest
+	event.remove({id: 'twilightforest:equipment/giant_sword'})
+	event.remove({id: 'twilightforest:equipment/giant_pickaxe'})
+
 })
 

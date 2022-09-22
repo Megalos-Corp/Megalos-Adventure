@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    
+    {
+      "item": "minecraft:chorus_fruit"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "fluid": "minecraft:water",
+      "nbt": {},
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "toughasnails:chorus_fruit_juice",
+      "count": 2
+    }
+  ]
+}

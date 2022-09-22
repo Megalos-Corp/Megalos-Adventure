@@ -6,5 +6,5 @@ monitor_renderer = "BEST"
 #The maximum distance monitors will render at. This defaults to the standard tile
 #entity limit, but may be extended if you wish to build larger monitors.
 #Range: 16 ~ 1024
-monitor_distance = 64
+monitor_distance = 32
 

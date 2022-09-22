@@ -37,7 +37,7 @@ customization {
   orientation = mid-left
   x = 516
   action = movebutton
-  y = -25
+  y = -36
 }
 
 customization {
@@ -66,7 +66,7 @@ customization {
   orientation = mid-left
   x = 516
   action = movebutton
-  y = 12
+  y = 0
 }
 
 customization {
@@ -90,7 +90,7 @@ customization {
   orientation = bottom-right
   x = -34
   action = movebutton
-  y = -70
+  y = -83
 }
 
 customization {
@@ -125,7 +125,7 @@ customization {
   orientation = mid-centered
   x = 196
   action = movebutton
-  y = -50
+  y = -61
 }
 
 customization {
@@ -140,8 +140,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = packmenu\resources\assets\packmenu\textures\gui\ui_player_hover.png
-  backgroundnormal = packmenu\resources\assets\packmenu\textures\gui\ui_player.png
+  backgroundhovered = fancymenu_textures\gui\medium_ui_hover.png
+  backgroundnormal = fancymenu_textures\gui\medium_ui.png
 }
 
 customization {
@@ -149,7 +149,7 @@ customization {
   orientation = mid-centered
   x = 196
   action = movebutton
-  y = 39
+  y = 27
 }
 
 customization {
@@ -261,7 +261,7 @@ customization {
   width = 112
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = f01556f5-ccab-4a38-9d65-e10283ef62e31660857195703
-  y = 314
+  y = 309
   alignment = centered
   height = 42
 }
@@ -280,27 +280,10 @@ customization {
   width = 112
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = fb395b14-7333-4495-8764-80417807be7a1660857568151
-  y = 326
+  y = 324
   alignment = centered
   base_color = eb4005
-  height = 39
-}
-
-customization {
-  orientation = top-left
-  restartbackgroundanimations = true
-  buttonaction = openlink
-  backgroundhovered = fancymenu_textures\gui\pub_hover.png
-  label = 
-  loopbackgroundanimations = true
-  x = 516
-  width = 112
-  actionid = b8d543e5-3f14-49ec-8206-47f07716f6e21661615803133
-  action = addbutton
-  y = 15
-  backgroundnormal = fancymenu_textures\gui\pub.png
-  value = https://guilded.gg/Megalos-Adventure
-  height = 99
+  height = 41
 }
 
 customization {
@@ -314,7 +297,7 @@ customization {
   width = 112
   actionid = 33cb9b18-92c4-4da8-be10-ed6d4e5ea2e61660864315140
   action = addbutton
-  y = 244
+  y = 222
   backgroundnormal = fancymenu_textures\gui\medium_ui.png
   value = https://github.com/Megalos-Corp/Megalos-Adventure/releases
   height = 20

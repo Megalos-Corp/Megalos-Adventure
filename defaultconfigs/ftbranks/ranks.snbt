@@ -10,6 +10,11 @@
 		power: 50
 		ftbranks.name_format: "<&6VIP {name}&r>"
 	}
+	Builder: {
+		name: "Builder"
+		power: 800
+		ftbranks.name_format: "<&4{name}&r>"
+	}
 	moderator: {
 		name: "Moderator"
 		power: 900
@@ -21,4 +26,6 @@
 		condition: "op"
 		ftbranks.name_format: "<&4{name}&r>"
 	}
+		
+
 }

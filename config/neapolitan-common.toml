@@ -5,7 +5,7 @@
 		#If milk can be inserted into cauldrons
 		"Milk Cauldron" = true
 		#If milkable mobs can be milked with empty glass bottles
-		"Milking with Glass Bottles" = false
+		"Milking with Glass Bottles" = true
 
 [blocks]
 
@@ -41,7 +41,7 @@
 		#The percentage chance for a Banana Plant to generate with a group of Chimpanzees
 		"Chimpanzee group chance" = 0.25
 		#The maximum amount of Chimpanzees that can spawn with a Banana Plant
-		"Chimpanzee maximum group size" = 10
+		"Chimpanzee maximum group size" = 4
 		#The minimum attempts for Chimpanzees to spawn with a Banana Plant
 		"Chimpanzee minimum spawn attempts" = 12
 		#The maximum attempts for Chimpanzees to spawn with a Banana Plant

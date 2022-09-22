@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "WTW",
+    "   "
+  ],
+  "key": {
+    "W": {
+      "item": "create:wheat_flour"
+    },
+    "T": {
+      "item": "twilightforest:torchberries"
+    }
+  },
+  "result": {
+    "item": "twilightdelight:torchberry_cookie",
+    "count": 8
+  }
+}

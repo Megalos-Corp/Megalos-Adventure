@@ -1,5 +1,6 @@
 {
   "type": "farmersdelight:cooking",
+  "group": "juice",
   "ingredients": [
     {
       "item": "minecraft:melon_slice"
@@ -9,7 +10,7 @@
     }
   ],
   "result": {
-    "item": "farmersdelight:melon_juice"
+    "item": "toughasnails:melon_juice"
   },
   "container": {
     "item": "minecraft:glass_bottle"

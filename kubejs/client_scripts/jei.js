@@ -1,3 +1,8 @@
+//Remove Uncrafting Table
+onEvent('jei.remove.categories', event => {
+    //console.log(event.getCategoryIds())    
+    event.remove('twilightforest:uncrafting')
+  })
 // Cacher des items dans JEI
 onEvent('jei.hide.items', event => {
     // Remove Kubejs item
@@ -95,5 +100,58 @@ onEvent('jei.hide.items', event => {
     // hide neapolitan bar of chocolate
     event.hide([
         'neapolitan:chocolate_bar'
+    ])
+    //hide duplicate melon juice
+    event.hide([
+        'overweight_farming:melon_juice',
+        'farmersdelight:melon_juice'
+    ])
+    //Hide Apple Cider
+    event.hide([
+        'farmersdelight:apple_cider'
+    ])  
+    //Hide Spout gun
+    event.hide([
+        'create_things_and_misc:spout_gun',
+        'create_things_and_misc:spout_gun_water',
+        'create_things_and_misc:spout_gun_lava'
+    ])
+    //Hide Copper Scaffolding
+    event.hide([
+        'create_things_and_misc:copper_scaffolding'
+    ])
+    //Hide Thatch Mowzies Mobs
+    event.hide([
+        'mowziesmobs:thatch_block'
+    ])
+    // Hide pocket computer
+    event.hide([
+        'computercraft:pocket_computer_normal',
+        'computercraft:pocket_computer_advanced'
+    ])
+    //Hide uncraftable or wtf items of twilight forest
+    event.hide([
+        'twilightforest:cube_talisman',
+        'twilightforest:cube_of_annihilation',
+        'twilightforest:block_and_chain',
+        'twilightforest:giant_sword',
+        'twilightforest:giant_pickaxe'
+    ])
+    //Hide Create deco coins
+    event.hide([
+        'createdeco:zinc_coin',
+        'createdeco:zinc_coinstack',
+        'createdeco:copper_coin',
+        'createdeco:copper_coinstack',
+        'createdeco:brass_coin',
+        'createdeco:brass_coinstack',
+        'createdeco:iron_coin',
+        'createdeco:iron_coinstack',
+        'createdeco:gold_coin',
+        'createdeco:gold_coinstack',
+        'createdeco:netherite_coin',
+        'createdeco:netherite_coinstack',
+        'createdeco:cast_iron_coin',
+        'createdeco:cast_iron_coinstack'
     ])
 })

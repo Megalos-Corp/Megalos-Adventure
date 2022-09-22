@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    
+    {
+      "item": "minecraft:glow_berries"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "fluid": "minecraft:water",
+      "nbt": {},
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "toughasnails:glow_berry_juice",
+      "count": 2
+    }
+  ]
+}

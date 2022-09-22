@@ -1,11 +1,12 @@
 {
   "type": "create:mixing",
   "ingredients": [
+    
     {
-      "item": "minecraft:sugar"
+      "item": "delightful:cactus_flesh"
     },
     {
-      "item": "quark:cactus_paste"
+      "item": "minecraft:sugar"
     },
     {
       "item": "minecraft:glass_bottle"
@@ -18,7 +19,7 @@
   ],
   "results": [
     {
-      "item": "megalos_adventure:cactus_juice",
+      "item": "toughasnails:cactus_juice",
       "count": 2
     }
   ]

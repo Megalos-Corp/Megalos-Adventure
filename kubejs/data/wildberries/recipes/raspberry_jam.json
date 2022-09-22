@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "wildberries:raspberry"
+    },
+    {
+      "item": "wildberries:raspberry"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "wildberries:raspberry_jam",
+    "count": 1
+  },
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

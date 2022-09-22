@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "group": "juice",
+  "ingredients": [
+    {
+      "item": "minecraft:glow_berries"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "toughasnails:glow_berry_juice"
+  },
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}
