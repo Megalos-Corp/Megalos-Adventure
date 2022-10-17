@@ -1,21 +1,21 @@
 
 [general]
 	#Range: 1 ~ 1000
-	job_start_cost = 10
+	job_start_cost = 15
 	#Range: 1 ~ 1000
 	job_stop_cost = 5
 	#Range: 0 ~ 1000
-	powerup_cost = 10
+	powerup_cost = 125
 	#Range: 1 ~ 10
 	amount_of_free_jobs = 2
 	#Range: 0 ~ 100
 	job_level_to_stop_job_for_free = 1
-	set_first_job_as_display = true
+	set_first_job_as_display = false
 
 [chat]
 	#Make chat look fancy.
-	format_chat = true
-	display_job_in_chat_and_tab = true
+	format_chat = false
+	display_job_in_chat_and_tab = false
 
 [level_up]
 	#Amount of coins given to a player each time they level up a job.
@@ -27,27 +27,27 @@
 	#Example, player gets 4 job-EXP from fishing with a 1.45 fisherman multiplier and a 3.22 global multiplier:
 	#Outcome: (4 * 1.45) * 3.22 = 18.676 = 19 job-EXP gained (rounded).
 	#Range: 0.01 ~ 1000.0
-	global_exp_multiplier = 1.0
+	global_exp_multiplier = 0.8
 	#Range: 0.01 ~ 1000.0
-	alchemist_exp_multiplier = 1.0
+	alchemist_exp_multiplier = 0.8
 	#Range: 0.01 ~ 1000.0
-	builder_exp_multiplier = 1.0
+	builder_exp_multiplier = 0.8
 	#Range: 0.01 ~ 1000.0
-	digger_exp_multiplier = 1.0
+	digger_exp_multiplier = 0.8
 	#Range: 0.01 ~ 1000.0
-	enchanter_exp_multiplier = 1.0
+	enchanter_exp_multiplier = 0.8
 	#Range: 0.01 ~ 1000.0
-	farmer_exp_multiplier = 1.0
+	farmer_exp_multiplier = 0.8
 	#Range: 0.01 ~ 1000.0
-	fisherman_exp_multiplier = 1.0
+	fisherman_exp_multiplier = 0.8
 	#Range: 0.01 ~ 1000.0
-	hunter_exp_multiplier = 1.0
+	hunter_exp_multiplier = 0.8
 	#Range: 0.01 ~ 1000.0
-	lumberjack_exp_multiplier = 1.0
+	lumberjack_exp_multiplier = 0.8
 	#Range: 0.01 ~ 1000.0
-	miner_exp_multiplier = 1.0
+	miner_exp_multiplier = 0.8
 	#Range: 0.01 ~ 1000.0
-	smith_exp_multiplier = 1.0
+	smith_exp_multiplier = 0.8
 
 [crafting]
 
@@ -55,61 +55,61 @@
 
 		[crafting.tools.miner]
 			#Range: 0 ~ 100
-			required_level_miners_hammer_level_1 = 5
+			required_level_miners_hammer_level_1 = 25
 			#Range: 0 ~ 100
-			required_level_miners_hammer_level_2 = 25
+			required_level_miners_hammer_level_2 = 50
 			#Range: 0 ~ 100
-			required_level_miners_hammer_level_3 = 50
+			required_level_miners_hammer_level_3 = 75
 			#Range: 0 ~ 100
-			required_level_miners_hammer_level_4 = 75
+			required_level_miners_hammer_level_4 = 100
 
 		[crafting.tools.digger]
 			#Range: 0 ~ 100
-			required_level_diggers_excavator_level_1 = 5
+			required_level_diggers_excavator_level_1 = 25
 			#Range: 0 ~ 100
-			required_level_diggers_excavator_level_2 = 25
+			required_level_diggers_excavator_level_2 = 50
 			#Range: 0 ~ 100
-			required_level_diggers_excavator_level_3 = 50
+			required_level_diggers_excavator_level_3 = 75
 			#Range: 0 ~ 100
-			required_level_diggers_excavator_level_4 = 75
+			required_level_diggers_excavator_level_4 = 100
 
 		[crafting.tools.lumberjack]
 			#Range: 0 ~ 100
-			required_level_lumberjack_axe_level_1 = 5
+			required_level_lumberjack_axe_level_1 = 25
 			#Range: 0 ~ 100
-			required_level_lumberjack_axe_level_2 = 25
+			required_level_lumberjack_axe_level_2 = 50
 			#Range: 0 ~ 100
-			required_level_lumberjack_axe_level_3 = 50
+			required_level_lumberjack_axe_level_3 = 75
 			#Range: 0 ~ 100
-			required_level_lumberjack_axe_level_4 = 75
+			required_level_lumberjack_axe_level_4 = 100
 
 		[crafting.tools.farmer]
 			#Range: 0 ~ 100
-			required_level_farmers_hoe_level_1 = 5
+			required_level_farmers_hoe_level_1 = 25
 			#Range: 0 ~ 100
-			required_level_farmers_hoe_level_2 = 25
+			required_level_farmers_hoe_level_2 = 50
 			#Range: 0 ~ 100
-			required_level_farmers_hoe_level_3 = 50
+			required_level_farmers_hoe_level_3 = 75
 			#Range: 0 ~ 100
-			required_level_farmers_hoe_level_4 = 75
+			required_level_farmers_hoe_level_4 = 100
 
 		[crafting.tools.hunter]
 			#Range: 0 ~ 100
-			required_level_hunters_sword_level_1 = 5
+			required_level_hunters_sword_level_1 = 25
 			#Range: 0 ~ 100
-			required_level_hunters_sword_level_2 = 25
+			required_level_hunters_sword_level_2 = 50
 			#Range: 0 ~ 100
-			required_level_hunters_sword_level_3 = 50
+			required_level_hunters_sword_level_3 = 100
 			#Range: 0 ~ 100
-			required_level_hunters_sword_level_4 = 75
+			required_level_hunters_sword_level_4 = 150
 			#Range: 0 ~ 100
-			required_level_hunters_bow_level_1 = 5
+			required_level_hunters_bow_level_1 = 25
 			#Range: 0 ~ 100
-			required_level_hunters_bow_level_2 = 25
+			required_level_hunters_bow_level_2 = 50
 			#Range: 0 ~ 100
-			required_level_hunters_bow_level_3 = 50
+			required_level_hunters_bow_level_3 = 75
 			#Range: 0 ~ 100
-			required_level_hunters_bow_level_4 = 75
+			required_level_hunters_bow_level_4 = 100
 
 		[crafting.tools.fisherman]
 			#Range: 0 ~ 100

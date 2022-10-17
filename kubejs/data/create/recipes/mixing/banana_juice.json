@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    
+    {
+      "item": "neapolitan:banana",
+      "count": 4
+    },
+    {
+      "item": "supplementaries:sugar_cube"
+    },
+    {
+      "item": "minecraft:glass_bottle",
+      "count": 4
+    },
+    {
+      "fluid": "kubejs:purified_water",
+      "nbt": {},
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "item": "megalos_adventure:banana_juice",
+      "count": 4
+    }
+  ]
+}

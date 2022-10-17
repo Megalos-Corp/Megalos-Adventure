@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    
+    {
+      "item": "wildberries:cranberries",
+      "count": 4
+    },
+    {
+      "item": "supplementaries:sugar_cube"
+    },
+    {
+      "item": "minecraft:glass_bottle",
+      "count": 4
+    },
+    {
+      "fluid": "kubejs:purified_water",
+      "nbt": {},
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "item": "megalos_adventure:cranberries_juice",
+      "count": 4
+    }
+  ]
+}

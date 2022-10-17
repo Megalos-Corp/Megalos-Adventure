@@ -3,6 +3,9 @@
   "ingredients": [
     {
       "item": "create:bar_of_chocolate"
+    },
+    {
+      "item": "create:bar_of_chocolate"
     }
   ],
   "result": {

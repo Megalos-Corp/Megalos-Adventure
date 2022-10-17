@@ -2,20 +2,19 @@
   "type": "create:milling",
 "ingredients": [
   {
-    "item": "druidcraft:hemp"
+    "item": "druidcraftrg:hemp"
   }
 ],
 "results": [
   {
-    "item": "minecraft:string"
+    "item": "druidcraftrg:hemp_seeds"
+  },
+  {
+    "item": "farmersdelight:straw"
   },
   {
     "item": "minecraft:string",
     "count": 2,
-    "chance": 0.25
-  },
-  {
-    "item": "druidcraft:hemp_seeds",
     "chance": 0.25
   }
 ],

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PB ",
+    "BB ",
+    "   "
+  ],
+  "key": {
+    "P": {
+      "item": "kubejs:purified_water_bucket"
+    },
+    "B": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": [
+    {
+    "item": "toughasnails:purified_water_bottle",
+    "count": 3
+    },
+    {
+      "item": "minecraft:bucket"
+    }
+  ]
+}

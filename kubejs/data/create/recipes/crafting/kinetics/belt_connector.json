@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "DDD"
+  ],
+  "key": {
+    "D": {
+      "item": "tetra:forged_mesh"
+    }
+  },
+  "result": {
+    "item": "create:belt_connector"
+  }
+}

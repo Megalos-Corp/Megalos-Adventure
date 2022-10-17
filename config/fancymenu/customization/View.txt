@@ -20,6 +20,12 @@ customization {
 }
 
 customization {
+  baseheight = 1027
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
   keepaspectratio = false
   action = backgroundoptions
 }
@@ -35,9 +41,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = mid-left
-  x = 516
+  x = 512
   action = movebutton
-  y = -36
+  y = -78
 }
 
 customization {
@@ -52,8 +58,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = fancymenu_textures\gui\ui_player_hover.png
-  backgroundnormal = fancymenu_textures\gui\ui_player.png
+  backgroundhovered = fancymenu_textures\gui\medium_ui_hover.png
+  backgroundnormal = fancymenu_textures\gui\medium_ui.png
 }
 
 customization {
@@ -64,9 +70,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = mid-left
-  x = 516
+  x = 512
   action = movebutton
-  y = 0
+  y = -33
 }
 
 customization {
@@ -81,16 +87,16 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = fancymenu_textures\gui\ui_player_hover.png
-  backgroundnormal = fancymenu_textures\gui\ui_player.png
+  backgroundhovered = fancymenu_textures\gui\medium_ui_hover.png
+  backgroundnormal = fancymenu_textures\gui\medium_ui.png
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = bottom-right
-  x = -34
+  x = -38
   action = movebutton
-  y = -83
+  y = -65
 }
 
 customization {
@@ -123,9 +129,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = mid-centered
-  x = 196
+  x = 192
   action = movebutton
-  y = -61
+  y = -106
 }
 
 customization {
@@ -147,9 +153,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = mid-centered
-  x = 196
+  x = 192
   action = movebutton
-  y = 27
+  y = -3
 }
 
 customization {
@@ -238,52 +244,13 @@ customization {
   orientation = top-centered
   splash_color = #ffff00
   hidden = false
-  x = 135
+  x = 133
   width = 60
   splash_rotation = -20
   action = deep_customization_element:title_screen_splash
   actionid = 2a647a5e-1bbd-49ae-bb3c-96372862a54e1660847891644
-  y = 96
+  y = 91
   height = 30
-}
-
-customization {
-  orientation = top-left
-  enable_scrolling = true
-  shadow = false
-  scale = 1.2
-  source = Version
-  text_border = 0
-  case_mode = normal
-  source_mode = direct
-  line_spacing = 1
-  x = 516
-  width = 112
-  action = custom_layout_element:fancymenu_customization_item_text
-  actionid = f01556f5-ccab-4a38-9d65-e10283ef62e31660857195703
-  y = 309
-  alignment = centered
-  height = 42
-}
-
-customization {
-  orientation = top-right
-  enable_scrolling = true
-  shadow = false
-  scale = 0.9
-  source = fancymenu_textures/gui/version.txt
-  text_border = 0
-  case_mode = normal
-  source_mode = local
-  line_spacing = 1
-  x = -124
-  width = 112
-  action = custom_layout_element:fancymenu_customization_item_text
-  actionid = fb395b14-7333-4495-8764-80417807be7a1660857568151
-  y = 324
-  alignment = centered
-  base_color = eb4005
-  height = 41
 }
 
 customization {
@@ -293,11 +260,11 @@ customization {
   backgroundhovered = fancymenu_textures\gui\medium_ui_hover.png
   label = Changelog
   loopbackgroundanimations = true
-  x = 516
+  x = 512
   width = 112
   actionid = 33cb9b18-92c4-4da8-be10-ed6d4e5ea2e61660864315140
   action = addbutton
-  y = 222
+  y = 214
   backgroundnormal = fancymenu_textures\gui\medium_ui.png
   value = https://github.com/Megalos-Corp/Megalos-Adventure/releases
   height = 20

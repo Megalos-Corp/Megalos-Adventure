@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    
+    {
+      "item": "createaddition:biomass_pellet",
+      "count":2
+    },
+    {
+      "fluid": "minecraft:water",
+      "nbt": {},
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "kubejs:purified_water",
+      "amount": 1000
+    }
+  ],
+  "heatRequirement": "heated"
+}

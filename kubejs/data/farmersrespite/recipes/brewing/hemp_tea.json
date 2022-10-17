@@ -2,10 +2,10 @@
   "type": "farmersrespite:brewing",
   "ingredients": [
     {
-      "tag": "farmersrespite:tea_leaves"
+      "item": "druidcraftrg:hemp"
     },
     {
-      "item": "druidcraft:hemp"
+      "tag": "farmersrespite:tea_leaves"
     }
   ],
   "result": {
@@ -15,6 +15,6 @@
     "item": "minecraft:glass_bottle"
   },
   "experience": 0.35,
-  "brewingtime": 300,
-  "needWater": true
+  "brewingtime": 100,
+  "needwater": true
 }

@@ -1,0 +1,17 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+      {
+        "item": "minecraft:netherite_ingot"
+      },
+      {
+        "fluidTag": "forge:honey",
+        "amount": 250
+      }
+    ],
+    "results": [
+      {
+        "item": "megalos_adventure:waxed_netherite"
+      }
+    ]
+  }

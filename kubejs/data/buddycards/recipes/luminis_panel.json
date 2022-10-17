@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "buddycards:luminis"
+    }
+  ],
+  "results": [
+    {
+      "item": "buddycards:luminis_panel"
+    }
+  ]
+}

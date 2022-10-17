@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+"ingredients": [
+  {
+    "item": "alcocraft:hop"
+  }
+],
+"results": [
+  {
+    "item": "alcocraft:hop_seeds"
+  },
+  {
+    "item": "alcocraft:hop_seeds",
+    "count": 2,
+    "chance": 0.25
+  }
+],
+"processingTime": 150
+}

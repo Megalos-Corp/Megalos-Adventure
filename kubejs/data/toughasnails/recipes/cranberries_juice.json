@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "group": "juice",
+  "ingredients": [
+    {
+      "item": "wildberries:cranberries"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "megalos_adventure:cranberries_juice"
+  },
+  "container": {
+    "item": "toughasnails:purified_water_bottle"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

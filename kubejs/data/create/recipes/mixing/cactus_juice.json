@@ -3,24 +3,26 @@
   "ingredients": [
     
     {
-      "item": "delightful:cactus_flesh"
+      "item": "delightful:cactus_flesh",
+      "count": 4
     },
     {
-      "item": "minecraft:sugar"
+      "item": "supplementaries:sugar_cube"
     },
     {
-      "item": "minecraft:glass_bottle"
+      "item": "minecraft:glass_bottle",
+      "count": 4
     },
     {
-      "fluid": "minecraft:water",
+      "fluid": "kubejs:purified_water",
       "nbt": {},
-      "amount": 250
+      "amount": 1000
     }
   ],
   "results": [
     {
       "item": "toughasnails:cactus_juice",
-      "count": 2
+      "count": 4
     }
   ]
 }

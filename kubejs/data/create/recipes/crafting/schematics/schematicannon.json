@@ -1,0 +1,35 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " SSSS",
+    "SCTSS",
+    "EYXE ",
+    "  F  "
+  ],
+  "key": {
+    "E": {
+      "item": "create:andesite_casing"
+    },
+    "T": {
+      "item": "create:electron_tube"
+    },
+    "C": {
+      "item": "createaddition:capacitor"
+    },
+    "F": {
+      "item": "create:large_cogwheel"
+    },
+    "X": {
+      "item": "create:schematic_table"
+    },
+    "S": {
+      "item": "alloyed:steel_sheet"
+    },
+    "Y": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "result": {
+    "item": "create:schematicannon"
+  }
+}

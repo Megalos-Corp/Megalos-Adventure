@@ -1,0 +1,10 @@
+{
+  "type": "toughasnails:water_purifying",
+  "ingredient": {
+    "item": "minecraft:water_bucket"
+  },
+  "result": {
+    "item": "kubejs:purified_water_bucket"
+  },
+  "purifytime": 400
+}

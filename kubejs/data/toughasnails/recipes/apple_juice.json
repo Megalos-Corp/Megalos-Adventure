@@ -13,7 +13,7 @@
     "item": "toughasnails:apple_juice"
   },
   "container": {
-    "item": "minecraft:glass_bottle"
+    "item": "toughasnails:purified_water_bottle"
   },
   "experience": 0.35,
   "cookingtime": 200
