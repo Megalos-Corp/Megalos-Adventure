@@ -137,7 +137,7 @@
 	#Enable/Disable the Multi Player Event
 	enabled = true
 	#The first line of text under the app name
-	description = "Playing on server"
+	description = "Playing on server with %players% players"
 	#The second line of text under the app name
 	state = ""
 	#The Asset ID of the image to display as the large image
@@ -156,7 +156,7 @@
 	#Enable/Disable the Realms Game Event
 	enabled = true
 	#The first line of text under the app name
-	description = "Playing on realms"
+	description = "Playing on %realmname%"
 	#The second line of text under the app name
 	state = ""
 	#The Asset ID of the image to display as the large image

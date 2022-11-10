@@ -110,12 +110,11 @@ onEvent('jei.hide.items', event => {
     event.hide([
         'farmersdelight:apple_cider'
     ])  
-    //Hide Spout gun and radar
+    //Hide Spout gun
     event.hide([
         'create_things_and_misc:spout_gun',
         'create_things_and_misc:spout_gun_water',
-        'create_things_and_misc:spout_gun_lava',
-        'create_things_and_misc:radar'
+        'create_things_and_misc:spout_gun_lava'
     ])
     //Hide Copper Scaffolding
     event.hide([
