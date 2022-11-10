@@ -56,11 +56,12 @@ onEvent('recipes', event => {
 	// Unificate Melon Juice
 	event.remove({id: 'sliceanddice:cooking/farmersdelight/cooking/melon_juice'})
 	event.remove({id: 'toughasnails:melon_juice'})
-	// Remove Spout Gun 
+	// Remove Spout Gun and radar
 	event.remove({id: 'create_things_and_misc:spout_craft'})
 	event.remove({id: 'create_things_and_misc:water_gun_c_raft'})
 	event.remove({id: 'create_things_and_misc:spout_gun_lava'})
 	event.remove({id: 'create_things_and_misc:copper_scaffolding_craft'})
+	event.remove({id: 'create_things_and_misc:radar_craft'})
 	//Remove heated recipe for all juice
 	event.remove({id: 'sliceanddice:cooking/toughasnails/cactus_juice'})
 	event.remove({id: 'sliceanddice:cooking/toughasnails/sweet_berry_juice'})
@@ -84,4 +85,13 @@ onEvent('recipes', event => {
 	event.remove({id: 'twilightforest:equipment/giant_pickaxe'})
 	//Remove cooking tea recipe
 	event.remove({id: 'delightful:food/lavender_tea'})
+	//Remove Fiery recipes with iron armor
+	event.remove({id: 'twilightforest:equipment/fiery_iron_helmet'})
+	event.remove({id: 'twilightforest:equipment/fiery_iron_chestplate'})
+	event.remove({id: 'twilightforest:equipment/fiery_iron_leggings'})
+	event.remove({id: 'twilightforest:equipment/fiery_iron_boots'})
+	//Remove all recipe armor for knight quest mod
+	event.remove({mod: ('knight_quest')})
+	//Remove all recipe for torchmaster
+	event.remove({mod: ('torchmaster')})
 })

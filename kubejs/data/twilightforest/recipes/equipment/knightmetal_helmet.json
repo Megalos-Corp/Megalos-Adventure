@@ -1,0 +1,32 @@
+{
+  "group": "armors",
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " FDF ",
+    "FGEGF",
+    "FEKEF",
+    "FGEGF",
+    " FDF "
+  ],
+  "key": {
+    "F": {
+      "tag": "forge:ingots/knightmetal"
+    },
+    "E": {
+      "item": "create_experienced:enchantium_ingot"
+    },
+    "D": {
+      "item": "quark:diamond_heart"
+    },
+    "G": {
+      "item": "knight_quest:kq_goblet_filled"
+    },
+    "K": {
+      "item": "twilightforest:steeleaf_helmet"
+    }
+  },
+  "result": {
+    "item": "twilightforest:knightmetal_helmet"
+  },
+  "acceptMirrored": true
+}

@@ -1,0 +1,27 @@
+{
+  "group": "armors",
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "SWS",
+    "GDG",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "alloyed:steel_sheet"
+    },
+    "W": {
+      "item": "minecraft:red_wool"
+    },
+    "D": {
+      "item": "minecraft:diamond_boots"
+    },
+    "G": {
+      "item": "knight_quest:kq_goblet_filled"
+    }
+  },
+  "result": {
+    "item": "knight_quest:kq_squire_set_boots"
+  },
+  "acceptMirrored": true
+}

@@ -1,0 +1,27 @@
+{
+  "group": "armors",
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "CWC",
+    "GDG",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "W": {
+      "item": "minecraft:green_wool"
+    },
+    "D": {
+      "item": "minecraft:diamond_boots"
+    },
+    "G": {
+      "item": "knight_quest:kq_goblet_filled"
+    }
+  },
+  "result": {
+    "item": "knight_quest:kq_apple_set_boots"
+  },
+  "acceptMirrored": true
+}
