@@ -1,0 +1,34 @@
+{
+  "group": "armors",
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " FDF ",
+    "FGEGF",
+    "FEKEF",
+    "FGEGF",
+    " FDF "
+  ],
+  "key": {
+    "F": {
+      "tag": "forge:ingots/steeleaf"
+    },
+    "E": {
+      "item": "create_experienced:enchantium_ingot"
+    },
+    "D": {
+      "item": "quark:diamond_heart"
+    },
+    "G": {
+      "item": "knight_quest:kq_goblet_filled"
+    },
+    "K": {
+      "item": "twilightforest:ironwood_boots"
+    }
+  },
+  "result": {
+    "nbt": "{Enchantments:[{lvl:2s,id:\"minecraft:feather_falling\"}]}",
+    "item": "twilightforest:steeleaf_boots",
+    "type": "minecraft:item_nbt"
+  },
+  "acceptMirrored": true
+}
