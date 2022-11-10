@@ -1,5 +1,0 @@
-autoJump:false
-realmsNotifications:false
-darkMojangStudiosBackground:true
-guiScale:3
-tutorialStep:none

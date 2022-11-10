@@ -1,7 +1,0 @@
-{
-	"credit": "Created by Nesios",
-    "parent": "item/handheld",
-    "textures": {
-        "layer0": "item/golden_axe_damaged_1"
-    }
-}
