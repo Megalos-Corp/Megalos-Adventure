@@ -1,6 +1,6 @@
 # Megalos Adventure 1.18.2
 ![](https://img.guildedcdn.com/ContentMediaGenericFiles/c8deb88d7301079f451953e2428092b1-Full.webp?w=1920&h=700)
-![](https://img.shields.io/badge/Forge%20Version-40.1.80-orange) ![](https://img.shields.io/badge/RAM%20MIN-6Go-green) 
+![](https://img.shields.io/badge/Forge%20Version-40.1.84-orange) ![](https://img.shields.io/badge/RAM%20MIN-6Go-green) 
 
 Megalos Adventure is a multiplayer Modpack that combines exploration, farming, building and Create technology to provide a gameplay experience similar to vanilla while adding a touch of fantasy and steam!
 
