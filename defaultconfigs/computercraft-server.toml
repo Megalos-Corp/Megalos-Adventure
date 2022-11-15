@@ -45,7 +45,7 @@ command_require_creative = true
 	#Enable the "http" API on Computers. This also disables the "pastebin" and "wget"
 	#programs, that many users rely on. It's recommended to leave this on and use the
 	#"rules" config option to impose more fine-grained control.
-	enabled = false
+	enabled = true
 	#Enable use of http websockets. This requires the "http_enable" option to also be true.
 	websocket_enabled = false
 	#The number of http requests a computer can make at one time. Additional requests

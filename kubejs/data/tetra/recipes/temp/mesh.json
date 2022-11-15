@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "xxx",
+        "ccc"
+    ],
+    "key": {
+        "x": {
+            "item": "minecraft:chain"
+        },
+        "c": {
+            "item": "minecraft:dried_kelp"
+        }
+    },
+    "result": {
+        "item": "tetra:forged_mesh"
+    }
+}

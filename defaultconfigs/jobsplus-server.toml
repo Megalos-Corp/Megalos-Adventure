@@ -5,7 +5,7 @@
 	#Range: 1 ~ 1000
 	job_stop_cost = 5
 	#Range: 0 ~ 1000
-	powerup_cost = 125
+	powerup_cost = 25
 	#Range: 1 ~ 10
 	amount_of_free_jobs = 2
 	#Range: 0 ~ 100
@@ -31,7 +31,7 @@
 	#Range: 0.01 ~ 1000.0
 	alchemist_exp_multiplier = 0.8
 	#Range: 0.01 ~ 1000.0
-	builder_exp_multiplier = 0.8
+	builder_exp_multiplier = 0.7
 	#Range: 0.01 ~ 1000.0
 	digger_exp_multiplier = 0.8
 	#Range: 0.01 ~ 1000.0
@@ -39,15 +39,15 @@
 	#Range: 0.01 ~ 1000.0
 	farmer_exp_multiplier = 0.8
 	#Range: 0.01 ~ 1000.0
-	fisherman_exp_multiplier = 0.8
+	fisherman_exp_multiplier = 1.2
 	#Range: 0.01 ~ 1000.0
 	hunter_exp_multiplier = 0.8
 	#Range: 0.01 ~ 1000.0
-	lumberjack_exp_multiplier = 0.8
+	lumberjack_exp_multiplier = 0.6
 	#Range: 0.01 ~ 1000.0
-	miner_exp_multiplier = 0.8
+	miner_exp_multiplier = 0.6
 	#Range: 0.01 ~ 1000.0
-	smith_exp_multiplier = 0.8
+	smith_exp_multiplier = 0.6
 
 [crafting]
 
@@ -99,9 +99,9 @@
 			#Range: 0 ~ 100
 			required_level_hunters_sword_level_2 = 50
 			#Range: 0 ~ 100
-			required_level_hunters_sword_level_3 = 100
+			required_level_hunters_sword_level_3 = 75
 			#Range: 0 ~ 100
-			required_level_hunters_sword_level_4 = 150
+			required_level_hunters_sword_level_4 = 100
 			#Range: 0 ~ 100
 			required_level_hunters_bow_level_1 = 25
 			#Range: 0 ~ 100
@@ -123,37 +123,37 @@
 
 	[crafting.armor]
 		#Range: 0 ~ 100
-		required_level_reinforced_iron_helmet = 1
+		required_level_reinforced_iron_helmet = 14
 		#Range: 0 ~ 100
-		required_level_reinforced_iron_chestplate = 10
+		required_level_reinforced_iron_chestplate = 16
 		#Range: 0 ~ 100
-		required_level_reinforced_iron_leggings = 5
+		required_level_reinforced_iron_leggings = 18
 		#Range: 0 ~ 100
-		required_level_reinforced_iron_boots = 1
+		required_level_reinforced_iron_boots = 20
 		#Range: 0 ~ 100
-		required_level_obsidian_helmet = 5
+		required_level_obsidian_helmet = 24
 		#Range: 0 ~ 100
-		required_level_obsidian_chestplate = 20
+		required_level_obsidian_chestplate = 26
 		#Range: 0 ~ 100
-		required_level_obsidian_leggings = 10
+		required_level_obsidian_leggings = 28
 		#Range: 0 ~ 100
-		required_level_obsidian_boots = 5
+		required_level_obsidian_boots = 30
 		#Range: 0 ~ 100
-		required_level_reinforced_diamond_helmet = 20
+		required_level_reinforced_diamond_helmet = 34
 		#Range: 0 ~ 100
-		required_level_reinforced_diamond_chestplate = 50
+		required_level_reinforced_diamond_chestplate = 36
 		#Range: 0 ~ 100
-		required_level_reinforced_diamond_leggings = 35
+		required_level_reinforced_diamond_leggings = 38
 		#Range: 0 ~ 100
-		required_level_reinforced_diamond_boots = 20
+		required_level_reinforced_diamond_boots = 40
 		#Range: 0 ~ 100
-		required_level_reinforced_netherite_helmet = 50
+		required_level_reinforced_netherite_helmet = 54
 		#Range: 0 ~ 100
-		required_level_reinforced_netherite_chestplate = 100
+		required_level_reinforced_netherite_chestplate = 56
 		#Range: 0 ~ 100
-		required_level_reinforced_netherite_leggings = 75
+		required_level_reinforced_netherite_leggings = 58
 		#Range: 0 ~ 100
-		required_level_reinforced_netherite_boots = 50
+		required_level_reinforced_netherite_boots = 60
 
 	[crafting.other]
 		#Range: 0 ~ 100
@@ -161,9 +161,9 @@
 
 		[crafting.other.enchanter]
 			#Range: 0 ~ 100
-			required_level_exp_jar = 5
+			required_level_exp_jar = 15
 			#Range: 0 ~ 100
-			required_level_curse_breaker = 10
+			required_level_curse_breaker = 20
 			#Range: 0 ~ 100
 			required_level_experience_bottle_tier_1 = 10
 			#Range: 0 ~ 100
@@ -189,5 +189,5 @@
 			#Range: 0 ~ 100
 			required_level_huge_backpack = 50
 			#Range: 0 ~ 100
-			required_level_ender_backpack = 10
+			required_level_ender_backpack = 45
 
