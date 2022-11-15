@@ -11,11 +11,6 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 25,
-          "name": "itemcapes:cape"
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:enchanted_golden_apple"
         },
         {
