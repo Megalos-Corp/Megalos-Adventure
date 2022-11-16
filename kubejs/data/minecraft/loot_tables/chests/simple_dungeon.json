@@ -41,17 +41,7 @@
         {
           "type": "minecraft:item",
           "weight": 15,
-          "name": "megalos_adventure:diggy_hole_disc"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 15,
           "name": "megalos_adventure:thune_disc"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 15,
-          "name": "megalos_adventure:halloween_disc"
         },
         {
           "type": "minecraft:item",

@@ -14,7 +14,7 @@
 	"cascade volume" = 1.0
 	#Defines Cascade Sound Reach, Measured By Blocks.
 	#Range: 0.0 ~ 256.0
-	"cascade sound range" = 30.0
+	"cascade sound range" = 16.0
 	#Defines Cascade Particle Amount.
 	#Range: 0.0 ~ 100.0
 	"cascade particles" = 1.0
@@ -27,5 +27,5 @@
 	#Defines Splash Particle Display Amount Around Flowing Water.
 	#Zero Means No Splash Particles.
 	#Range: 0 ~ 65536
-	"splash abundance" = 50
+	"splash abundance" = 5
 

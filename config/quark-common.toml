@@ -1154,8 +1154,8 @@
 		"Spawn Chance" = 0.1
 		"Loot Table" = "minecraft:chests/simple_dungeon"
 		"Max Rooms" = 10
-		"Min Start Y" = -40
-		"Max Start Y" = -20
+		"Min Start Y" = -20
+		"Max Start Y" = 0
 		"Chest Chance" = 0.5
 
 		[world.big_dungeon.biome_config]

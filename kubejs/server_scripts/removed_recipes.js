@@ -94,4 +94,6 @@ onEvent('recipes', event => {
 	event.remove({mod: ('knight_quest')})
 	//Remove all recipe for torchmaster
 	event.remove({mod: ('torchmaster')})
+	//fix decrafting wool recipe
+	event.remove({id: 'minecraft:white_wool'})
 })
