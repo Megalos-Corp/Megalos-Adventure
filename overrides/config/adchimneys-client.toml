@@ -15,5 +15,5 @@
 	colorize = true
 	#Use vanilla smoke particles for compatibility with some mods.
 	#Limitations: no wind, no coloring, no collisions
-	useVanillaSmokeParticles = false
+	useVanillaSmokeParticles = true
 
