@@ -40,15 +40,16 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  orientation = mid-left
-  x = 512
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 0
   action = movebutton
-  y = -78
+  y = 24
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  width = 112
+  width = 80
   action = resizebutton
   height = 20
 }
@@ -58,8 +59,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = fancymenu_textures\gui\medium_ui_hover.png
-  backgroundnormal = fancymenu_textures\gui\medium_ui.png
+  backgroundhovered = fancymenu_textures\gui\small_ui_hover.png
+  backgroundnormal = fancymenu_textures\gui\small_ui.png
 }
 
 customization {
@@ -69,34 +70,41 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  orientation = mid-left
-  x = 512
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = -5
   action = movebutton
-  y = -33
+  y = 25
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  width = 112
+  width = 90
   action = resizebutton
-  height = 22
+  height = 20
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  loopbackgroundanimations = true
+  action = setbuttonlabel
+  value = Options
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = false
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = fancymenu_textures\gui\medium_ui_hover.png
-  backgroundnormal = fancymenu_textures\gui\medium_ui.png
+  backgroundhovered = fancymenu_textures\gui\options_hover.png
+  backgroundnormal = fancymenu_textures\gui\options.png
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = bottom-right
-  x = -38
+  x = -29
   action = movebutton
-  y = -65
+  y = -107
 }
 
 customization {
@@ -129,14 +137,14 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = mid-centered
-  x = 192
+  x = 232
   action = movebutton
-  y = -106
+  y = -63
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  width = 112
+  width = 80
   action = resizebutton
   height = 20
 }
@@ -146,21 +154,22 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = fancymenu_textures\gui\medium_ui_hover.png
-  backgroundnormal = fancymenu_textures\gui\medium_ui.png
+  backgroundhovered = fancymenu_textures\gui\small_ui_hover.png
+  backgroundnormal = fancymenu_textures\gui\small_ui.png
 }
 
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  orientation = mid-centered
-  x = 192
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = -5
   action = movebutton
-  y = -3
+  y = 51
 }
 
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  width = 112
+  width = 90
   action = resizebutton
   height = 20
 }
@@ -168,7 +177,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   action = setbuttonlabel
-  value = Mods Options
+  value = Mod Options
 }
 
 customization {
@@ -176,8 +185,14 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = fancymenu_textures\gui\medium_ui_hover.png
-  backgroundnormal = fancymenu_textures\gui\medium_ui.png
+  backgroundhovered = fancymenu_textures\gui\mods_options_hover.png
+  backgroundnormal = fancymenu_textures\gui\mods_options.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = sethoverlabel
+  label = Mods Options
 }
 
 customization {
@@ -198,7 +213,7 @@ customization {
 
 customization {
   orientation = top-left
-  hidden = true
+  hidden = false
   x = 2
   width = 108
   action = deep_customization_element:title_screen_branding
@@ -244,28 +259,68 @@ customization {
   orientation = top-centered
   splash_color = #ffff00
   hidden = false
-  x = 133
+  x = 107
   width = 60
-  splash_rotation = -20
+  splash_rotation = -22
   action = deep_customization_element:title_screen_splash
   actionid = 2a647a5e-1bbd-49ae-bb3c-96372862a54e1660847891644
-  y = 91
+  y = 73
   height = 30
 }
 
 customization {
   orientation = top-left
+  slim = false
+  scale = 22
+  headrotationy = 0.0
+  headrotationx = 180.0
+  skinurl = https://cdn.discordapp.com/attachments/575698116729372712/1043248861797433354/nesios_skin.png
+  autorotation = false
+  showname = false
+  crouching = false
+  x = 623
+  actionid = c1a4bc06-7513-4d9a-8712-874ac58ce2301668798362437
+  action = addentity
+  y = 108
+  playername = %playername%
+  bodyrotationx = 180.0
+  bodyrotationy = 0.0
+  parrot = false
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.8
+  source = fancymenu_textures/gui/version.txt
+  text_border = 0
+  case_mode = normal
+  source_mode = local
+  line_spacing = 1
+  x = 363
+  width = 86
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 5c3d0246-7f7f-4dfe-a7d4-e2af2883abbe1668610826401
+  y = 11
+  alignment = left
+  height = 11
+}
+
+customization {
+  orientation = element
   restartbackgroundanimations = true
   buttonaction = openlink
-  backgroundhovered = fancymenu_textures\gui\medium_ui_hover.png
+  backgroundhovered = fancymenu_textures\gui\small_ui_hover.png
   label = Changelog
   loopbackgroundanimations = true
-  x = 512
-  width = 112
-  actionid = 33cb9b18-92c4-4da8-be10-ed6d4e5ea2e61660864315140
+  orientation_element = vanillabtn:button_compatibility_id:forge_titlescreen_mods_button
+  x = 5
+  width = 80
+  actionid = 07c3c87b-e7c4-4c7f-8567-c8e31566aa4e1668798775852
   action = addbutton
-  y = 214
-  backgroundnormal = fancymenu_textures\gui\medium_ui.png
+  y = 26
+  backgroundnormal = fancymenu_textures\gui\small_ui.png
   value = https://github.com/Megalos-Corp/Megalos-Adventure/releases
   height = 20
 }
@@ -274,18 +329,39 @@ customization {
   orientation = top-left
   enable_scrolling = false
   shadow = true
-  scale = 0.6
-  source = fancymenu_textures/gui/version.txt
+  scale = 1.0
+  source = Hello !
   text_border = 0
   case_mode = normal
-  source_mode = local
+  source_mode = direct
   line_spacing = 1
-  x = 1
-  width = 86
+  x = 556
+  width = 66
   action = custom_layout_element:fancymenu_customization_item_text
-  actionid = 5c3d0246-7f7f-4dfe-a7d4-e2af2883abbe1668610826401
-  y = 1
+  actionid = 7b600a51-9c54-43dd-9403-ca1a0bd130161668800164188
+  y = 86
   alignment = left
+  height = 12
+}
+
+customization {
+  orientation = element
+  enable_scrolling = false
+  shadow = true
+  scale = 0.8
+  source = %playername%
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = 7b600a51-9c54-43dd-9403-ca1a0bd130161668800164188
+  x = 0
+  width = 65
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = e6794b78-f947-4dae-b463-6e2e7d6413b31668800355516
+  y = 11
+  alignment = left
+  base_color = FF9F35
   height = 11
 }
 
