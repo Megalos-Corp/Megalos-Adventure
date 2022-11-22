@@ -58,7 +58,7 @@
 	#If enabled player movement on leaves will not be enhanced
 	vanillaLeavesCollision = false
 	#If enabled then thinner branches can be climbed
-	enableBranchClimbling = true
+	enableBranchClimbling = false
 	#If enabled players receive reduced fall damage on leaves at the expense of the block(s) destruction
 	canopyCrash = true
 	#Damage dealt to the axe item when cutting a tree down. VANILLA: Standard 1 Damage. THICKNESS: By Branch/Trunk Thickness. VOLUME: By Tree Volume.
