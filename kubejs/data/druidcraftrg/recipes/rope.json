@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "farmersdelight:rope"
+        }
+    },
+    "result": { "item": "druidcraftrg:rope", "count": 2 }
+}

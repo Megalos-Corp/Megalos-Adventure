@@ -47,7 +47,7 @@ onEvent('jei.hide.items', event => {
         'quark:pickarang',
         'quark:dragon_scale',
         'quark:chute',
-        'quark:pipe',
+        'quark:diamond_heart',
         'quark:white_candle',
         'quark:orange_candle',
         'quark:magenta_candle',

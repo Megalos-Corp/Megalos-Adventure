@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["#S#","XAX"],"key":{"#":{"item":"create:wheat_flour"},"S":{"item":"minecraft:sugar"},"X":{"item":"druidcraft:elderberries"},"A":{"tag":"mgls:apple_fruits"}},"result":{"item":"druidcraft:apple_elderberry_crumble","count":1}}
