@@ -22,25 +22,6 @@ onEvent('jei.hide.items', event => {
     event.hide([
         'supplementaries:firefly_jar'
     ])
-    // Remove neptunium stuffs recipe
-    event.hide([
-        'aquaculture:neptunium_nugget',
-        'aquaculture:neptunium_ingot',
-        'aquaculture:neptunium_block',
-        'aquaculture:neptunium_helmet',
-        'aquaculture:neptunium_chestplate',
-        'aquaculture:neptunium_leggings',
-        'aquaculture:neptunium_boots',
-        'aquaculture:neptunium_bow',
-        'aquaculture:neptunium_sword',
-        'aquaculture:neptunium_hoe',
-        'aquaculture:neptunium_axe',
-        'aquaculture:neptunium_shovel',
-        'aquaculture:neptunium_pickaxe',
-        'aquaculture:neptunium_fishing_rod',
-        'aquaculture:neptunium_fillet_knife',
-        'aquaculture:neptunes_bounty',
-        ])
     // Suppression des objets désactivés de Quark
     event.hide([
         'quark:flamerang',
