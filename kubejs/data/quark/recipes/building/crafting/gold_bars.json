@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " ##",
+    " ##"
+  ],
+  "key": {
+    "#": {
+      "item": "createdeco:gold_bars"
+    }
+  },
+  "result": {
+    "item": "quark:gold_bars",
+    "count": 4
+  }
+}
