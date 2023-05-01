@@ -12,4 +12,3 @@ OPTIFINE : Remove or disable the Magnesium extra, Iris & Oculus Flywheel Compat,
 
 - [Github repo](https://github.com/Megalos-Corp/Megalos-Adventure)
 - [Bug Report](https://github.com/Megalos-Corp/Megalos-Adventure/issues)![Curseforge_Header](https://user-images.githubusercontent.com/52352139/235478872-e82db1af-45c4-4c2f-8974-160d85dbe3f0.png)
-![Curseforge_Header](https://user-images.githubusercontent.com/52352139/235478928-f441b39d-ef3a-42db-bef7-eff0f7cd82c5.png)
