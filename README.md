@@ -1,6 +1,6 @@
 # Megalos Adventure 1.18.2
-![](https://img.guildedcdn.com/ContentMediaGenericFiles/c8deb88d7301079f451953e2428092b1-Full.webp?w=1920&h=700)
-![](https://img.shields.io/badge/Forge%20Version-40.1.84-orange) ![](https://img.shields.io/badge/RAM%20MIN-6Go-green) 
+![Curseforge_Header](https://user-images.githubusercontent.com/52352139/235478928-f441b39d-ef3a-42db-bef7-eff0f7cd82c5.png)
+![](https://img.shields.io/badge/Forge%20Version-40.2.1-orange) ![](https://img.shields.io/badge/RAM%20MIN-6Go-green) 
 
 Megalos Adventure is a multiplayer Modpack that combines exploration, farming, building and Create technology to provide a gameplay experience similar to vanilla while adding a touch of fantasy and steam!
 
@@ -11,4 +11,5 @@ OPTIFINE : Remove or disable the Magnesium extra, Iris & Oculus Flywheel Compat,
 ### Links 
 
 - [Github repo](https://github.com/Megalos-Corp/Megalos-Adventure)
-- [Bug Report](https://github.com/Megalos-Corp/Megalos-Adventure/issues)
+- [Bug Report](https://github.com/Megalos-Corp/Megalos-Adventure/issues)![Curseforge_Header](https://user-images.githubusercontent.com/52352139/235478872-e82db1af-45c4-4c2f-8974-160d85dbe3f0.png)
+![Curseforge_Header](https://user-images.githubusercontent.com/52352139/235478928-f441b39d-ef3a-42db-bef7-eff0f7cd82c5.png)
