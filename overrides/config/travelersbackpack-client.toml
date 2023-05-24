@@ -1,8 +1,6 @@
 
 #Client-only settings
 [client]
-	#Displays warning about item deletion after updating from older version
-	displayWarning = true
 	#Enables tool cycling via keybind (Default Z) + scroll combination, while backpack is worn
 	enableToolCycling = true
 	#Allows tool cycling using keybinding only (Default Z)

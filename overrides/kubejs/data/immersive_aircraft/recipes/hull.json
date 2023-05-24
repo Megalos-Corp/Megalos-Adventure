@@ -1,0 +1,49 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:oak_log"
+  },
+  "transitionalItem": {
+    "item": "minecraft:oak_log"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:oak_log"
+        },
+        {
+          "item": "create:iron_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:oak_log"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:oak_log"
+        },
+        {
+          "item": "create:iron_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:oak_log"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "immersive_aircraft:hull"
+    }
+  ],
+  "loops": 4
+}

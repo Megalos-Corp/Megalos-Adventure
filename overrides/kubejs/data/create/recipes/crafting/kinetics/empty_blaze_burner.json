@@ -1,9 +1,9 @@
 {
-  "type": "create:mechanical_crafting",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
-    " III ",
-    " IAI ",
-    "IIIII"
+    "III",
+    "IAI",
+    "III"
   ],
   "key": {
     "I": {
@@ -16,6 +16,5 @@
   "result": {
     "item": "create:empty_blaze_burner",
     "count": 1
-  },
-  "acceptMirrored": false
+  }
 }

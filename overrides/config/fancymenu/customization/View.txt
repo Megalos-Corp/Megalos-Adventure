@@ -44,7 +44,7 @@ customization {
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
   x = 0
   action = movebutton
-  y = 24
+  y = 25
 }
 
 customization {
@@ -101,10 +101,11 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  orientation = bottom-right
-  x = -29
+  orientation = element
+  orientation_element = 07c3c87b-e7c4-4c7f-8567-c8e31566aa4e1668798775852
+  x = 58
   action = movebutton
-  y = -107
+  y = 28
 }
 
 customization {
@@ -139,14 +140,14 @@ customization {
   orientation = mid-centered
   x = 232
   action = movebutton
-  y = -63
+  y = -54
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   width = 80
   action = resizebutton
-  height = 20
+  height = 19
 }
 
 customization {
@@ -190,12 +191,6 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  action = sethoverlabel
-  label = Mods Options
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
   action = hidebutton
 }
@@ -218,7 +213,7 @@ customization {
   width = 108
   action = deep_customization_element:title_screen_branding
   actionid = 2862b8e5-7b10-43ba-83db-89cc5695426c1660847891643
-  y = 301
+  y = 300
   height = 40
 }
 
@@ -259,32 +254,41 @@ customization {
   orientation = top-centered
   splash_color = #ffff00
   hidden = false
-  x = 107
+  x = 109
   width = 60
   splash_rotation = -22
   action = deep_customization_element:title_screen_splash
   actionid = 2a647a5e-1bbd-49ae-bb3c-96372862a54e1660847891644
-  y = 73
+  y = 76
   height = 30
 }
 
 customization {
-  orientation = top-left
   slim = false
-  scale = 22
-  headrotationy = 0.0
-  headrotationx = 180.0
-  skinurl = https://cdn.discordapp.com/attachments/575698116729372712/1043248861797433354/nesios_skin.png
-  autorotation = false
+  auto_skin = false
+  scale = 20
   showname = false
-  crouching = false
-  x = 623
-  actionid = c1a4bc06-7513-4d9a-8712-874ac58ce2301668798362437
-  action = addentity
-  y = 108
-  playername = %playername%
-  bodyrotationx = 180.0
+  follow_mouse = false
+  capeurl = http://textures.minecraft.net/texture/f9a76537647989f9a0b6d001e320dac591c359e9e61a31f4ce11c88f207f0ad4
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = d61b2344-0a93-491d-9993-1ea990a0c29c1672650312556
+  playername = Nesios
+  bodyrotationx = 0.0
   bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 36
+  orientation = element
+  copy_client_player = true
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/3f8fddd4f7eda30933c7db3d4453c601cb5abae97c87ff0eb2b1c8e6054192c5
+  crouching = false
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 65
+  width = 12
+  parrot_left_shoulder = false
+  y = -36
   parrot = false
 }
 
@@ -297,36 +301,35 @@ customization {
   text_border = 0
   case_mode = normal
   source_mode = local
-  line_spacing = 1
-  x = 363
-  width = 86
+  line_spacing = 2
+  x = 366
+  width = 59
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 5c3d0246-7f7f-4dfe-a7d4-e2af2883abbe1668610826401
-  y = 11
-  alignment = left
-  height = 11
+  y = 8
+  alignment = right
+  height = 8
 }
 
 customization {
   orientation = element
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://github.com/Megalos-Corp/Megalos-Adventure/releases%btnaction_splitter_fm%
   backgroundhovered = fancymenu_textures\gui\small_ui_hover.png
   label = Changelog
   loopbackgroundanimations = true
   orientation_element = vanillabtn:button_compatibility_id:forge_titlescreen_mods_button
   x = 5
   width = 80
-  actionid = 07c3c87b-e7c4-4c7f-8567-c8e31566aa4e1668798775852
   action = addbutton
+  actionid = 07c3c87b-e7c4-4c7f-8567-c8e31566aa4e1668798775852
   y = 26
   backgroundnormal = fancymenu_textures\gui\small_ui.png
-  value = https://github.com/Megalos-Corp/Megalos-Adventure/releases
   height = 20
 }
 
 customization {
-  orientation = top-left
+  orientation = element
   enable_scrolling = false
   shadow = true
   scale = 1.0
@@ -335,11 +338,12 @@ customization {
   case_mode = normal
   source_mode = direct
   line_spacing = 1
-  x = 556
+  orientation_element = e6794b78-f947-4dae-b463-6e2e7d6413b31668800355516
+  x = -1
   width = 66
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 7b600a51-9c54-43dd-9403-ca1a0bd130161668800164188
-  y = 86
+  y = -12
   alignment = left
   height = 12
 }
@@ -354,12 +358,12 @@ customization {
   case_mode = normal
   source_mode = direct
   line_spacing = 1
-  orientation_element = 7b600a51-9c54-43dd-9403-ca1a0bd130161668800164188
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
   x = 0
   width = 65
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = e6794b78-f947-4dae-b463-6e2e7d6413b31668800355516
-  y = 11
+  y = -12
   alignment = left
   base_color = FF9F35
   height = 11

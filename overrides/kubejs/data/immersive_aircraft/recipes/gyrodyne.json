@@ -1,0 +1,41 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " PPP ",
+    "  E  ",
+    "  R  ",
+    "SHBHS",
+    "     "
+  ],
+  "key": {
+    "S":
+      {
+        "item": "immersive_aircraft:sail"
+      },
+    "H":
+      {
+        "item": "immersive_aircraft:hull"
+      },
+    "P":
+      {
+        "item": "immersive_aircraft:propeller"
+      },
+    "E": 
+      {
+        "item": "immersive_aircraft:engine"
+      },
+    "R": 
+      {
+        "item": "minecraft:stick"
+      },
+    "B": 
+      {
+        "tag": "minecraft:boats"
+      }
+  },
+  "result": {
+    "item": "immersive_aircraft:gyrodyne",
+    "count":1
+  },
+    "acceptMirrored": false
+}

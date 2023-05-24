@@ -1,0 +1,37 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "  P  ",
+    "HHEHH",
+    "HHBHH",
+    "  L  ",
+    " HLH "
+  ],
+  "key": {
+    "H":
+      {
+        "item": "immersive_aircraft:hull"
+      },
+    "E":
+      {
+        "item": "immersive_aircraft:engine"
+      },
+    "P": 
+      {
+        "item": "immersive_aircraft:propeller"
+      },
+    "B": 
+      {
+        "tag": "minecraft:boats"
+      },
+    "L": 
+      {
+        "tag": "minecraft:logs"
+      }
+  },
+  "result": {
+    "item": "immersive_aircraft:biplane",
+    "count":1
+  },
+  "acceptMirrored": false
+}

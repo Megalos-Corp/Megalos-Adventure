@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GCC",
+    "ILC",
+    "IIG"
+  ],
+  "key": {
+    "C": [
+      {
+        "item": "alloyed:bronze_sheet"
+      }
+    ],
+    "I": [
+      {
+        "item": "alloyed:steel_sheet"
+      }
+    ],
+    "L": [
+      {
+        "item": "create:cogwheel"
+      }
+    ],
+   "G": [
+      {
+        "item": "create:large_cogwheel"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:industrial_gears"
+  }
+}

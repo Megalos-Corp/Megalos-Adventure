@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "R R",
+    " C ",
+    "R R"
+  ],
+  "key": {
+    "C": [
+      {
+        "item": "minecraft:compass"
+      }
+    ],
+    "R": [
+      {
+        "item": "create:pulse_extender"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:gyroscope"
+  }
+}

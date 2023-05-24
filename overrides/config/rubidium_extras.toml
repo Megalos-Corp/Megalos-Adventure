@@ -3,7 +3,7 @@
 [Settings]
 
 	[Settings.Misc]
-		"Cloud Height [Raw, Default 256]" = 256
+		"Cloud Height [Raw, Default 256]" = 216
 		"Chunk Fade In Quality (OFF, FAST, FANCY)" = "FANCY"
 		"Render Fog" = true
 		"Hide JEI Until Searching" = false

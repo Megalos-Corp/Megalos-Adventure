@@ -1,0 +1,11 @@
+{
+	"variants" : {
+		"druidcraft:textures/entity/lunar_moth/lunar_moth_lime.png" : "sprite:druidcraftrg/lunar_moth_lime.png",
+		"druidcraft:textures/entity/lunar_moth/lunar_moth_orange.png": "sprite:druidcraftrg/lunar_moth_orange.png",
+		"druidcraft:textures/entity/lunar_moth/lunar_moth_pink.png": "sprite:druidcraftrg/lunar_moth_pink.png",
+		"druidcraft:textures/entity/lunar_moth/lunar_moth_turquoise.png": "sprite:druidcraftrg/lunar_moth_turquoise.png",
+		"druidcraft:textures/entity/lunar_moth/lunar_moth_white.png": "sprite:druidcraftrg/lunar_moth_white.png",
+		"druidcraft:textures/entity/lunar_moth/lunar_moth_yellow.png": "sprite:druidcraftrg/lunar_moth_yellow.png",
+		"default" : "sprite:lunar_moth_lime.png"
+	}
+}

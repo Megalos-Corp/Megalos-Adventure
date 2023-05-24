@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " IB",
+    "BCB",
+    "BB "
+  ],
+  "key": {
+    "C": [
+      {
+        "item": "create:cogwheel"
+      }
+    ],
+    "I": [
+      {
+        "item": "createdeco:iron_support"
+      }
+    ],
+    "B": [
+      {
+        "item": "create:belt_connector"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:improved_landing_gear"
+  }
+}

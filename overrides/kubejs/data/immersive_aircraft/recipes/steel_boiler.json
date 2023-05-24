@@ -1,0 +1,65 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "immersive_aircraft:boiler"
+  },
+  "transitionalItem": {
+    "item": "immersive_aircraft:boiler"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "immersive_aircraft:boiler"
+        },
+        {
+          "item": "alloyed:steel_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "immersive_aircraft:boiler"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "immersive_aircraft:boiler"
+        },
+        {
+          "item": "alloyed:steel_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "immersive_aircraft:boiler"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "immersive_aircraft:boiler"
+        },
+        {
+          "item": "create:fluid_pipe"
+        }
+      ],
+      "results": [
+        {
+          "item": "immersive_aircraft:boiler"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "immersive_aircraft:steel_boiler"
+    }
+  ],
+  "loops": 3
+}

@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " CCC ",
+    " CFC ",
+    " CFC ",
+    " CBC "
+  ],
+  "key": {
+    "C":
+      {
+        "item": "create:copper_sheet"
+      },
+    "B":
+      {
+        "item": "create:blaze_burner"
+      },
+    "F":
+      {
+        "item": "create:fluid_tank"
+      }
+  },
+  "result": {
+    "item": "immersive_aircraft:boiler"
+  }
+}

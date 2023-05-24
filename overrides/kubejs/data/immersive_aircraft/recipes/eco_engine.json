@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CBC",
+    "NEN",
+    "RRR"
+  ],
+  "key": {
+    "C": [
+      {
+        "item": "twilightforest:steeleaf_ingot"
+      }
+    ],
+    "R": [
+      {
+        "item": "create:cut_veridium"
+      }
+    ],
+    "N": [
+      {
+        "item": "create_experienced:enchantium_block"
+      }
+    ],
+    "E": [
+      {
+        "item": "immersive_aircraft:engine"
+      }
+  ],
+    "B": [
+      {
+        "item": "minecraft:emerald_block"
+      }
+  ]
+},
+  "result": {
+    "item": "immersive_aircraft:eco_engine"
+  }
+}

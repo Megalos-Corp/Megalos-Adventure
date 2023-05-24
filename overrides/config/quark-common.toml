@@ -89,7 +89,7 @@
 	"Variant Bookshelves" = true
 	Thatch = true
 	"Sturdy Stone" = true
-	Stools = true
+	Stools = false
 	"Soul Sandstone" = true
 	Shingles = true
 	"Shear Vines" = true
@@ -552,7 +552,7 @@
 	"Chorus Vegetation" = true
 	"Blossom Trees" = false
 	"Big Stone Clusters" = true
-	"Big Dungeon" = true
+	"Big Dungeon" = false
 	"Azalea Wood" = false
 
 	[world.spiral_spires]

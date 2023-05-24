@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "     ",
+    " CCC ",
+    " BKB ",
+    " CCC ",
+    "     "
+  ],
+  "key": {
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "K": {
+      "item": "create:mechanical_press"
+    },
+    "C": {
+      "item": "create:brass_casing"
+    }
+  },
+  "result": {
+    "item": "create_things_and_misc:card_press",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

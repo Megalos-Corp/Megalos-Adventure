@@ -1,0 +1,39 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " III ",
+    " IWI ",
+    "FPBPF",
+    " CCC "
+  ],
+  "key": {
+    "F":
+      {
+        "item": "create:fluid_pipe"
+      },
+    "C":
+      {
+        "item": "minecraft:cobblestone"
+      },
+    "B":
+      {
+        "item": "immersive_aircraft:boiler"
+      },
+    "P":
+      {
+        "item": "create:precision_mechanism"
+      },
+    "I":
+      {
+        "item": "createdeco:cast_iron_ingot"
+      },
+    "W":
+      {
+        "item": "create:flywheel"
+      }
+
+  },
+  "result": {
+    "item": "immersive_aircraft:engine"
+  }
+}

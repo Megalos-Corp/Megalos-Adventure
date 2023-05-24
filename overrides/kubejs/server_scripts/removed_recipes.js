@@ -59,7 +59,10 @@ onEvent('recipes', event => {
 	// Remove Spout Gun and radar
 	event.remove({id: 'create_things_and_misc:spout_craft'})
 	event.remove({id: 'create_things_and_misc:water_gun_c_raft'})
-	event.remove({id: 'create_things_and_misc:spout_gun_lava'})
+	event.remove({id: 'create_things_and_misc:lava_gun_craft'})
+	event.remove({id: 'create_things_and_misc:honey_gun_craft'})
+	event.remove({id: 'create_things_and_misc:chocolate_gun_craft'})
+	event.remove({id: 'create_things_and_misc:slime_gun_craft'})
 	event.remove({id: 'create_things_and_misc:copper_scaffolding_craft'})
 	event.remove({id: 'create_things_and_misc:radar_craft'})
 	//Remove heated recipe for all juice

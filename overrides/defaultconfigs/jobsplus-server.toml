@@ -43,7 +43,7 @@
 	#Range: 0.01 ~ 1000.0
 	hunter_exp_multiplier = 0.8
 	#Range: 0.01 ~ 1000.0
-	lumberjack_exp_multiplier = 0.6
+	lumberjack_exp_multiplier = 0.7
 	#Range: 0.01 ~ 1000.0
 	miner_exp_multiplier = 0.6
 	#Range: 0.01 ~ 1000.0

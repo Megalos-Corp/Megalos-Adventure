@@ -1,0 +1,41 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " SSS ",
+    " SSS ",
+    " RRR ",
+    "PEHHH",
+    " HBH "
+  ],
+  "key": {
+    "S": 
+      {
+        "item": "immersive_aircraft:sail"
+      },
+    "H": 
+      {
+        "item": "immersive_aircraft:hull"
+      },
+    "E": 
+      {
+        "item": "immersive_aircraft:engine"
+      },
+    "R": 
+      {
+        "item": "farmersdelight:rope"
+      },
+    "B": 
+      {
+        "tag": "minecraft:boats"
+      },
+    "P": 
+      {
+        "item": "immersive_aircraft:propeller"
+      }
+  },
+  "result": {
+    "item": "immersive_aircraft:airship",
+    "count":1
+  },
+    "acceptMirrored": false
+}

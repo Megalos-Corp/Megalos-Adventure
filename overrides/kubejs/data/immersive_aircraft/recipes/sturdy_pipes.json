@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " MP",
+    "PPP",
+    "PM "
+  ],
+  "key": {
+    "P": [
+      {
+        "item": "create:fluid_pipe"
+      }
+    ],
+    "M": [
+      {
+        "item": "create:metal_bracket"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:sturdy_pipes"
+  }
+}

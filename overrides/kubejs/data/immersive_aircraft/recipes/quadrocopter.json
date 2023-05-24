@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "PSSSP",
+    " SSS ",
+    "PSESP"
+  ],
+  "key": {
+    "E":
+      {
+        "item": "immersive_aircraft:engine"
+      },
+    "S":
+      {
+        "item": "minecraft:scaffolding"
+      },
+    "P":
+      {
+        "item": "immersive_aircraft:propeller"
+      }
+  },
+  "result": {
+    "item": "immersive_aircraft:quadrocopter"
+  }
+}

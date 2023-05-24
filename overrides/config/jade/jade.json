@@ -3,7 +3,7 @@
     "displayTooltip": true,
     "displayBlocks": true,
     "displayEntities": true,
-    "displayMode": "TOGGLE",
+    "displayMode": "LITE",
     "hideFromDebug": true,
     "iconMode": "TOP",
     "enableTextToSpeech": false,
@@ -12,7 +12,8 @@
     "maxHeartsPerLine": 10,
     "fluidMode": "NONE",
     "reachDistance": 0.0,
-    "debug": false
+    "debug": false,
+    "hintOverlayToggle": false
   },
   "overlay": {
     "overlayPosX": 0.5,

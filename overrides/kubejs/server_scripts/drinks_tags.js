@@ -1,8 +1,6 @@
 onEvent('item.tags', event => {
     //DRINKS TAGS
     event.add('toughasnails:drinks', [
-        'twilightdelight:phytochemical_juice',
-        'twilightdelight:torchberry_juice',
         'create:builders_tea',
         'farmersrespite:green_tea',
         'farmersrespite:yellow_tea',
@@ -10,7 +8,6 @@ onEvent('item.tags', event => {
         'farmersrespite:rose_hip_tea',
         'farmersrespite:dandelion_tea',
         'farmersrespite:purulent_tea',
-        'twilightdelight:thorn_rose_tea',
         'delightful:lavender_tea',
         'wildberries:sweet_berry_jam',
         'wildberries:blueberry_jam',
@@ -56,8 +53,6 @@ onEvent('item.tags', event => {
     ])
     //--Thirst 8--
     event.add('toughasnails:thirst/8_thirst_drinks', [
-        'twilightdelight:phytochemical_juice',
-        'twilightdelight:torchberry_juice',
         'megalos_adventure:strawberries_juice',
         'megalos_adventure:banana_juice',
         'megalos_adventure:cherry_juice',
@@ -72,7 +67,6 @@ onEvent('item.tags', event => {
         'farmersrespite:rose_hip_tea',
         'farmersrespite:dandelion_tea',
         'farmersrespite:purulent_tea',
-        'twilightdelight:thorn_rose_tea',
         'delightful:lavender_tea',
         'neapolitan:strawberry_banana_smoothie',
         'neapolitan:mint_milkshake',
@@ -110,8 +104,6 @@ onEvent('item.tags', event => {
     //HYDRATATION TAGS
     //--Hydratation 80--
     event.add('toughasnails:hydration/80_hydration_drinks', [
-        'twilightdelight:phytochemical_juice',
-        'twilightdelight:torchberry_juice',
         'megalos_adventure:strawberries_juice',
         'megalos_adventure:banana_juice',
         'megalos_adventure:cherry_juice',
@@ -126,7 +118,6 @@ onEvent('item.tags', event => {
         'farmersrespite:rose_hip_tea',
         'farmersrespite:dandelion_tea',
         'farmersrespite:purulent_tea',
-        'twilightdelight:thorn_rose_tea',
         'delightful:lavender_tea',
         'farmersdelight:hot_cocoa',
         'neapolitan:strawberry_banana_smoothie',

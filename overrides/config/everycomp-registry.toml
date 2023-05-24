@@ -48,6 +48,22 @@
 		azalea = true
 		blossom = true
 
+	[wood_type.upgrade_aquatic]
+		driftwood = true
+		river = true
+
+	[wood_type.atmospheric]
+		rosewood = true
+		morado = true
+		yucca = true
+		kousa = true
+		aspen = true
+		grimwood = true
+
+	[wood_type.phantasm]
+		pream = true
+		ebony = true
+
 [leaves_type]
 
 	[leaves_type.minecraft]
@@ -93,47 +109,6 @@
 		white_cherry = true
 		pink_cherry = true
 
-	[leaves_type.dynamictrees]
-		spruce = true
-		oak = true
-		jungle = true
-		dark_oak = true
-		birch = true
-		acacia = true
-
-	[leaves_type.dtbop]
-		yellow_autumn = true
-		willow = true
-		white_cherry = true
-		umbran = true
-		spruce_twiglet = true
-		spruce_poplar = true
-		sparse_oak = true
-		sparse_acacia = true
-		redwood = true
-		rainbow_birch = true
-		poplar = true
-		pink_cherry = true
-		palm = true
-		orange_autumn = true
-		oak_twiglet = true
-		mega_dark_oak = true
-		maple_twiglet = true
-		maple = true
-		mahogany = true
-		magic_poplar = true
-		jungle_twiglet = true
-		jacaranda = true
-		hellbark_bush = true
-		hellbark = true
-		flowering_oak = true
-		fir = true
-		dying = true
-		dark_poplar = true
-		dark_oak_twiglet = true
-		cypress_willow = true
-		acacia_twiglet = true
-
 	[leaves_type.quark]
 		blue_blossom = true
 		lavender_blossom = true
@@ -141,4 +116,19 @@
 		pink_blossom = true
 		yellow_blossom = true
 		red_blossom = true
+
+	[leaves_type.upgrade_aquatic]
+		river = true
+
+	[leaves_type.atmospheric]
+		rosewood = true
+		morado = true
+		yucca = true
+		kousa = true
+		aspen = true
+		grimwood = true
+		flowering_morado = true
+
+	[leaves_type.phantasm]
+		pream = true
 

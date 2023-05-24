@@ -37,4 +37,6 @@ onEvent('item.tags', event => {
     //Add spatula to knife tag and harvestable tag 
     event.add('forge:tools/knives', 'megalos_adventure:spatula')
     event.add('overweight_farming:overweight_harvestables', 'megalos_adventure:spatula')
+    event.remove('forge:dough', 'create:dough')
+    event.remove('forge:dough/wheat', 'create:dough')
   })
