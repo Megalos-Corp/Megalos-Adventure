@@ -1,6 +1,6 @@
 # Megalos Adventure 1.18.2
 ![Curseforge_Header](https://user-images.githubusercontent.com/52352139/235478928-f441b39d-ef3a-42db-bef7-eff0f7cd82c5.png)
-![](https://img.shields.io/badge/Forge%20Version-40.2.2-orange) ![](https://img.shields.io/badge/RAM%20MIN-6Go-green) 
+![Forge Version](https://img.shields.io/badge/Forge%20Version-40.2.2-orange) ![](https://img.shields.io/badge/RAM%20MIN-6Go-green)![GitHub release (latest by date)](https://img.shields.io/github/v/release/Megalos-Corp/Megalos-Adventure?label=Version)
 
 Megalos Adventure is a multiplayer Modpack that combines exploration, farming, building and Create technology to provide a gameplay experience similar to vanilla while adding a touch of fantasy and steam!
 
