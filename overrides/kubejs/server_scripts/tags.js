@@ -2,8 +2,6 @@
 onEvent('item.tags', event => {
     //Tag for rope ingredient
     event.add('mgls:rope', ['farmersdelight:straw', 'supplementaries:flax', 'druidcraftrg:hemp'])
-    // Remove for supplementaries tag hidden rope 
-    event.remove('supplementaries:ropes', ['druidcraftrg:rope', 'supplementaries:rope', 'quark:rope'])
     //Tag for unified hide
     event.add('forge:leather', ['minecraft:rabbit_hide', 'cnb:yeti_hide'])
     //Add Milk bottle of Neapolitan to forge:milk/milk_bottle tag
@@ -34,9 +32,10 @@ onEvent('item.tags', event => {
     event.add('supplementaries:cookies', ['neapolitan:strawberry_scones'])
     //add purified water to forge:water tag
     event.add('forge:water', 'kubejs:purified_water_bucket')
-    //Add spatula to knife tag and harvestable tag 
+    //Add spatula to knife tag and harvestable tag
     event.add('forge:tools/knives', 'megalos_adventure:spatula')
+    //Add Spatula to harvestable tools for overweight farming
     event.add('overweight_farming:overweight_harvestables', 'megalos_adventure:spatula')
-    event.remove('forge:dough', 'create:dough')
-    event.remove('forge:dough/wheat', 'create:dough')
+    event.add('forge:stripped_logs', 'atmospheric:stripped_rosewood_log', 'atmospheric:stripped_morado_log', 'atmospheric:stripped_kousa_log', 'atmospheric:stripped_aspen_log', 'atmospheric:stripped_grimwood_log', 'atmospheric:stripped_yucca_log', 'upgrade_aquatic:stripped_driftwood_log', 'upgrade_aquatic:stripped_river_log')
+    event.add('forge:stripped_wood', 'upgrade_aquatic:stripped_driftwood', 'upgrade_aquatic:stripped_river_wood', 'atmospheric:stripped_rosewood', 'atmospheric:stripped_morado_wood', 'atmospheric:stripped_morado_wood', 'atmospheric:stripped_kousa_wood', 'atmospheric:stripped_aspen_wood', 'atmospheric:stripped_grimwood', 'atmospheric:stripped_yucca_wood')
   })

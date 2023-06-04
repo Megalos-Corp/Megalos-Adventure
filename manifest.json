@@ -10,7 +10,7 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "Megalos Adventure 1.0.2b",
+  "name": "Megalos Adventure 1.0.3",
   "version": "1.18.2",
   "author": "",
   "files": [
@@ -550,13 +550,13 @@
       "required": true
     },
     {
-      "projectID": 652202,
-      "fileID": 4084302,
+      "projectID": 522458,
+      "fileID": 3750338,
       "required": true
     },
     {
-      "projectID": 522458,
-      "fileID": 3750338,
+      "projectID": 652202,
+      "fileID": 4084302,
       "required": true
     },
     {
@@ -645,23 +645,23 @@
       "required": true
     },
     {
-      "projectID": 826308,
-      "fileID": 4500173,
-      "required": true
-    },
-    {
       "projectID": 308989,
       "fileID": 3650485,
       "required": true
     },
     {
-      "projectID": 411813,
-      "fileID": 4021708,
+      "projectID": 826308,
+      "fileID": 4500173,
       "required": true
     },
     {
       "projectID": 414401,
       "fileID": 4399580,
+      "required": true
+    },
+    {
+      "projectID": 411813,
+      "fileID": 4021708,
       "required": true
     },
     {
@@ -735,13 +735,13 @@
       "required": true
     },
     {
-      "projectID": 220318,
-      "fileID": 3827434,
+      "projectID": 328085,
+      "fileID": 4371807,
       "required": true
     },
     {
-      "projectID": 328085,
-      "fileID": 4371807,
+      "projectID": 220318,
+      "fileID": 3827434,
       "required": true
     },
     {
@@ -780,13 +780,13 @@
       "required": true
     },
     {
-      "projectID": 659838,
-      "fileID": 3956168,
+      "projectID": 563928,
+      "fileID": 3957976,
       "required": true
     },
     {
-      "projectID": 563928,
-      "fileID": 3957976,
+      "projectID": 659838,
+      "fileID": 3956168,
       "required": true
     },
     {

@@ -5,7 +5,7 @@
     "enable_vignette": true
   },
   "advanced": {
-    "arena_memory_allocator": "ASYNC",
+    "arena_memory_allocator": "SWAP",
     "allow_direct_memory_access": true,
     "enable_memory_tracing": false,
     "use_advanced_staging_buffers": true,
