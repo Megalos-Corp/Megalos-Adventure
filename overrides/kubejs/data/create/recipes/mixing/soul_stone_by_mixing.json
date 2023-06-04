@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients":[
+    {
+      "item": "minecraft:soul_sand"
+    },
+    {
+      "item": "minecraft:soul_sand"
+    },
+    {
+      "item": "minecraft:soul_sand"
+    },
+    {
+      "item": "minecraft:soul_sand"
+    }
+    ],
+  "results": [
+    {
+      "item": "infernalexp:soul_stone",
+      "count": 1
+    }
+  ]
+}

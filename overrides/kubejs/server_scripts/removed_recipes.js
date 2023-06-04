@@ -1,6 +1,6 @@
 onEvent('recipes', event => {
 	// Change recipes here
-	//suppression des recettes de la corde pour unifier les items. 
+	//suppression des recettes de la corde pour unifier les items.
 	event.remove({id: 'supplementaries:rope'})
 	event.remove({id: 'quark:building/crafting/rope'})
 	event.remove({id: 'druidcraftrg:lead'})
@@ -93,10 +93,11 @@ onEvent('recipes', event => {
 	event.remove({id: 'twilightforest:equipment/fiery_iron_chestplate'})
 	event.remove({id: 'twilightforest:equipment/fiery_iron_leggings'})
 	event.remove({id: 'twilightforest:equipment/fiery_iron_boots'})
-	//Remove all recipe armor for knight quest mod
-	event.remove({mod: ('knight_quest')})
-	//Remove all recipe for torchmaster
-	event.remove({mod: ('torchmaster')})
 	//fix decrafting wool recipe
 	event.remove({id: 'minecraft:white_wool'})
+	//Remove soulstone basic recipe
+	event.remove({id: 'infernalexp:smelting/soul_stone'})
+	//Remove Potion of ice resistance
+	//event.remove({output: Item.of('minecraft:potion', {Potion:"toughasnails:long_ice_resistance"})})
+	//event.remove({output: Item.of('minecraft:potion', {Potion:"toughasnails:ice_resistance"})})
 })
