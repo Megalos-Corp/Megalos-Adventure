@@ -38,4 +38,6 @@ onEvent('item.tags', event => {
     event.add('overweight_farming:overweight_harvestables', 'megalos_adventure:spatula')
     event.add('forge:stripped_logs', 'atmospheric:stripped_rosewood_log', 'atmospheric:stripped_morado_log', 'atmospheric:stripped_kousa_log', 'atmospheric:stripped_aspen_log', 'atmospheric:stripped_grimwood_log', 'atmospheric:stripped_yucca_log', 'upgrade_aquatic:stripped_driftwood_log', 'upgrade_aquatic:stripped_river_log')
     event.add('forge:stripped_wood', 'upgrade_aquatic:stripped_driftwood', 'upgrade_aquatic:stripped_river_wood', 'atmospheric:stripped_rosewood', 'atmospheric:stripped_morado_wood', 'atmospheric:stripped_morado_wood', 'atmospheric:stripped_kousa_wood', 'atmospheric:stripped_aspen_wood', 'atmospheric:stripped_grimwood', 'atmospheric:stripped_yucca_wood')
+    // add tag for spools
+    event.add('mgls:spools', 'createaddition:copper_spool', 'createaddition:gold_spool')
   })
