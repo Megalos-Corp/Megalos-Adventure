@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:blackstone"
+    }
+  ],
+  "results": [
+    {
+      "item": "infernalexp:rubble"
+    },
+    {
+      "item": "infernalexp:rubble",
+      "count": 1,
+      "chance": 0.25
+    }
+  ],
+  "processingTime": 100
+}

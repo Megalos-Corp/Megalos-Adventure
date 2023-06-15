@@ -1,4 +1,3 @@
-
 {
   "type": "create:mechanical_crafting",
   "pattern": [
@@ -8,7 +7,7 @@
   ],
   "key": {
     "B": {
-      "item": "create:copper_sheet"
+      "item": "create:brass_sheet"
     },
     "P": {
       "item": "create:precision_mechanism"
@@ -20,10 +19,10 @@
       "item": "createaddition:capacitor"
     },
     "S": {
-      "item": "createaddition:overcharged_alloy"
+      "item": "toms_storage:ts.crafting_terminal"
     },
     "G": {
-      "item": "create:framed_glass_pane"
+      "tag": "forge:glass_panes"
     }
   },
   "result": {
